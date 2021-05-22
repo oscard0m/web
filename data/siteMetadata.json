@@ -4,6 +4,8 @@
   "headerTitle": "oscard0m Blog",
   "description": "A blog created with Next.js and Tailwind.css",
   "language": "en-us",
+  "profession": "Software Engineer",
+  "location": "Barcelona",
   "siteUrl": "https://web-oscard0m.vercel.app",
   "siteRepo": "https://github.com/oscard0m/web",
   "image": "/static/images/avatar.png",
