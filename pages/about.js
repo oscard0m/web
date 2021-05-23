@@ -35,7 +35,7 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-              I'm a Software Engineer who started his journey as a web developer and got in love
+              I'm a Software Engineer who started his journey as a web developer and fell in love
               with:
               <ul>
                 <li>
@@ -69,7 +69,7 @@ export default function About() {
               You can read more about my software developer career in my <a href="/blog">blog</a>{' '}
               and my social networks. Also you can read about some of my{' '}
               <a href="/projects">Personal Projects</a> and <a href="/projects">Open Source</a>{' '}
-              contributions in this site.
+              contributions on this site.
             </p>
           </div>
         </div>
