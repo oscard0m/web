@@ -35,19 +35,41 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-              Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His
-              research interests includes complexity modelling of tailwinds, headwinds and
-              crosswinds.
+              I'm a Software Engineer who started his journey as a web developer and got in love
+              with:
+              <ul>
+                <li>
+                  <span role="img" aria-label="robot emoji">
+                    🤖
+                  </span>{' '}
+                  Software Automation
+                </li>
+                <li>
+                  <span role="img" aria-label="spider web emoji">
+                    🕸
+                  </span>{' '}
+                  Web Development
+                </li>
+                <li>
+                  <span role="img" aria-label="glob with meridians emoji">
+                    🌐
+                  </span>{' '}
+                  Open Source
+                </li>
+                <li>
+                  <span role="img" aria-label="mortar board emoji">
+                    🎓
+                  </span>{' '}
+                  Leadership and Mentoring in Software Development
+                </li>
+              </ul>
             </p>
+            <h3>Do you want to know more about me?</h3>
             <p>
-              He leads the clean energy group which develops 3D air pollution-climate models, writes
-              differential equation solvers, and manufactures titanium plated air ballons. In his
-              free time he bakes raspberry pi.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique
-              placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem
-              nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+              You can read more about my software developer career in my <a href="/blog">blog</a>{' '}
+              and my social networks. Also you can read about some of my{' '}
+              <a href="/projects">Personal Projects</a> and <a href="/projects">Open Source</a>{' '}
+              contributions in this site.
             </p>
           </div>
         </div>
