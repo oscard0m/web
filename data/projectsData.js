@@ -1,19 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What is you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Octokit',
+    description: `Library to extend and simplify how you use the GitHub API.`,
+    imgSrc: '/static/images/octokit.png',
+    href: 'https://docs.github.com/en/rest/overview/libraries',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Octoherd',
+    description: `Manage multiple repository updates all at once.`,
+    imgSrc: '/static/images/octoherd.gif',
+    href: 'https://github.com/octoherd',
   },
 ]
 
