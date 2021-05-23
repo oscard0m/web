@@ -22,7 +22,7 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        yellow: colors.amber,
+        blue: colors.lightBlue,
         code: {
           green: '#b5f4a5',
           yellow: '#ffe484',
@@ -37,11 +37,11 @@ module.exports = {
           css: {
             color: theme('colors.gray.700'),
             a: {
-              color: theme('colors.yellow.600'),
+              color: theme('colors.blue.600'),
               '&:hover': {
-                color: theme('colors.yellow.700'),
+                color: theme('colors.blue.700'),
               },
-              code: { color: theme('colors.yellow.400') },
+              code: { color: theme('colors.blue.400') },
             },
             h1: {
               fontWeight: '700',
@@ -94,11 +94,11 @@ module.exports = {
           css: {
             color: theme('colors.gray.300'),
             a: {
-              color: theme('colors.yellow.400'),
+              color: theme('colors.blue.400'),
               '&:hover': {
-                color: theme('colors.yellow.300'),
+                color: theme('colors.blue.300'),
               },
-              code: { color: theme('colors.yellow.400') },
+              code: { color: theme('colors.blue.400') },
             },
             h1: {
               fontWeight: '700',
