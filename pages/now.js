@@ -21,9 +21,10 @@ export default function Now() {
             <p>
               This page was inspired by{' '}
               <a href="https://blog.pragmaticengineer.com/now/">Gergely Orosz</a> and{' '}
-              <a href="https://sive.rs/nowff">Derek Sivers</a> now page.
+              <a href="https://sive.rs/nowff">Derek Sivers</a> now pages.
             </p>
             <p>Here's what I'm doing now.</p>
+            <br />
             <h1>Courses</h1>
             <h2> Epic React</h2>
             <p>
@@ -38,8 +39,10 @@ export default function Now() {
             <p>
               You can read about this journey in my <a href="/blog">blog</a>
             </p>
+            <br />
             <h1>Personal Projects</h1>
             <p></p>
+            <br />
             <h1>Open Source</h1>
             <p></p>
           </div>
