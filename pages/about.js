@@ -37,39 +37,45 @@ export default function About() {
             <p>
               I'm a Software Engineer who started his journey as a web developer and fell in love
               with:
-              <ul>
-                <li>
-                  <span role="img" aria-label="robot emoji">
-                    🤖
-                  </span>{' '}
-                  Software Automation
-                </li>
-                <li>
-                  <span role="img" aria-label="spider web emoji">
-                    🕸
-                  </span>{' '}
-                  Web Development
-                </li>
-                <li>
-                  <span role="img" aria-label="glob with meridians emoji">
-                    🌐
-                  </span>{' '}
-                  Open Source
-                </li>
-                <li>
-                  <span role="img" aria-label="mortar board emoji">
-                    🎓
-                  </span>{' '}
-                  Leadership and Mentoring in Software Development
-                </li>
-              </ul>
             </p>
+            <ul>
+              <li>
+                <span role="img" aria-label="robot emoji">
+                  🤖
+                </span>{' '}
+                Software Automation
+              </li>
+              <li>
+                <span role="img" aria-label="spider web emoji">
+                  🕸
+                </span>{' '}
+                Web Development
+              </li>
+              <li>
+                <span role="img" aria-label="glob with meridians emoji">
+                  🌐
+                </span>{' '}
+                Open Source
+              </li>
+              <li>
+                <span role="img" aria-label="mortar board emoji">
+                  🎓
+                </span>{' '}
+                Leadership and Mentoring in Software Development
+              </li>
+            </ul>
             <h3>Do you want to know more about me?</h3>
             <p>
               You can read more about my software developer career in my <a href="/blog">blog</a>{' '}
-              and my social networks. Also you can read about some of my{' '}
-              <a href="/projects">Personal Projects</a> and <a href="/projects">Open Source</a>{' '}
-              contributions on this site.
+              and my social networks.
+            </p>
+            <h3>Personal Projects and Open Source</h3>
+            <p>
+              You can read about them <a href="/projects">here</a>.
+            </p>
+            <h3>What am I doing right now?</h3>
+            <p>
+              You can find it <a href="/now">here</a>
             </p>
           </div>
         </div>
