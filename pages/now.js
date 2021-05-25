@@ -41,6 +41,16 @@ export default function Now() {
             </p>
             <br />
             <h1>Open Source and Personal Projects</h1>
+            <h2>This website</h2>
+            <p>
+              This website you are visiting right now is still under construction. New features,
+              creation of content, small adjustments, changes in the UI are part of my main focus
+              right now.
+            </p>
+            <p>
+              You can take a look into the code <a href="https://github.com/oscard0m/web">here</a>.
+            </p>
+            <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
               <a href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</a>
