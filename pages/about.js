@@ -75,7 +75,7 @@ export default function About() {
             </p>
             <h3>What am I doing right now?</h3>
             <p>
-              You can find it <a href="/now">here</a>
+              You can find it <a href="/now">here</a>.
             </p>
           </div>
         </div>
