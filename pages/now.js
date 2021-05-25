@@ -40,11 +40,11 @@ export default function Now() {
               You can read about this journey in my <a href="/blog">blog</a>
             </p>
             <br />
-            <h1>Personal Projects</h1>
-            <p></p>
-            <br />
-            <h1>Open Source</h1>
-            <p></p>
+            <h1>Open Source and Personal Projects</h1>
+            <p>
+              You can find the next contributions or personal projects I'm planning in my{' '}
+              <a href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</a>
+            </p>
           </div>
         </div>
       </div>
