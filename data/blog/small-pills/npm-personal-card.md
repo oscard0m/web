@@ -1,9 +1,9 @@
 ---
-title: Creating my personal `npm` card
+title: Creating my personal npm card
 date: '2021-06-20'
 tags: ['javascript', 'npm', 'node', 'github-actions', 'semantic-release']
 draft: false
-summary: 'Created a personal `npm` card inspired by [bitandbang](https://github.com/bnb/bitandbang)'
+summary: 'Created a personal npm card inspired by [bitandbang](https://github.com/bnb/bitandbang)'
 images: []
 ---
 
