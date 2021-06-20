@@ -11,7 +11,8 @@ Inpired by [bitandbang](https://github.com/bnb/bitandbang) I just created and pu
 a funny way to integrate in our `npm/yarn` projects a table in terminal where anybody can see author's contact info in a fancey way.
 
 You can find out how does it look running `npx oscard0m` in your terminal:
-![npm card screenshot](/static/images/npm-card-screenshot.png "npm card screenshot")
+
+![npm card screenshot](https://www.oscardominguez.dev/_next/image?url=%2Fstatic%2Fimages%2Fnpm-card-screenshot.png&w=640&q=75 "npm card screenshot")
 
 An issue that come up is, when my [semantic release](https://semantic-release.gitbook.io/semantic-release/) GitHub Action trying to publish in `npm` the latest changes of my card, I'm losing the color from the genereated `output` file.
 I already [created a bug](https://github.com/oscard0m/npm-personal-card/issues/5) and I would like to write on the details of the issue once I 
