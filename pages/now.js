@@ -26,7 +26,7 @@ export default function Now() {
             <p>Here's what I'm doing now.</p>
             <br />
             <h1>Courses</h1>
-            <h2> Epic React</h2>
+            <h2>React</h2>
             <p>
               In my daily job I did not have the chance to learn and play with{' '}
               <a href="https://reactjs.org">React</a> so I decided it's time to start learning the
@@ -38,6 +38,39 @@ export default function Now() {
             </p>
             <p>
               You can read about this journey in my <a href="/blog">blog</a>
+            </p>
+
+            <h2>Svelte</h2>
+            <p>
+              During my job research, I had the chance to take a LiveCoding session in one of the
+              stages in the interview process with{' '}
+              <a href="https://twitter.com/pichfl">Florian Pichler</a> for{' '}
+              <a href="https://simplabs.com">simplabs</a> and the statement was: "Let's build a
+              TO-DO list app together, and the condition is to use a component framework none of us
+              have used before".
+            </p>
+            <p>
+              The election was <a href="https://svelte.dev/">Svelte</a> and, after checking their
+              docs and playing around I really got in love with it. I mainly like the way it solves
+              classic Component problems for web development:
+              <ul>
+                <li>
+                  <a href="https://svelte.dev/blog/write-less-code">Less code</a>
+                </li>
+                <li>
+                  <a href="https://svelte.dev/blog/virtual-dom-is-pure-overhead">No virtual DOM</a>
+                </li>
+                <li>
+                  <a href="https://svelte.dev/blog/svelte-3-rethinking-reactivity">
+                    Truly reactive
+                  </a>
+                </li>
+              </ul>
+            </p>
+            <p>
+              The course I've chosen to do so is{' '}
+              <a href="https://epicreact.dev/">Svelte (Frontend Masters)</a> by its creator{' '}
+              <a href="https://twitter.com/Rich_Harris">Rich Harris</a>.
             </p>
             <br />
             <h1>Open Source and Personal Projects</h1>
