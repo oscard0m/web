@@ -89,6 +89,28 @@ export default function Now() {
               You can find the next contributions or personal projects I'm planning in my{' '}
               <a href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</a>
             </p>
+            <br />
+            <h1>What I’m reading about</h1>
+            <h2>Psychology</h2>
+            <ul>
+              <li>
+                <a hred="https://www.goodreads.com/book/show/48725742-one-life">
+                  One Life: How we forgot to live meaningful lives
+                </a>{' '}
+                by <a href="https://en.wikipedia.org/wiki/Morten_Alb%C3%A6k">Morten Albæk</a>
+              </li>
+            </ul>
+            <h2>Comics</h2>
+            <ul>
+              <li>
+                <a href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4?ac=1&from_search=true&qid=44AFMXtmsq&rank=4">
+                  The Walking Dead, Vol 4: The Heart's Desire
+                </a>{' '}
+                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
+                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
+                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
+              </li>
+            </ul>
             <hr></hr>
             <p>
               <small>
