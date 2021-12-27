@@ -94,16 +94,79 @@ export default function Now() {
             <h2>Psychology</h2>
             <ul>
               <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
                 <a hred="https://www.goodreads.com/book/show/48725742-one-life">
                   One Life: How we forgot to live meaningful lives
                 </a>{' '}
                 by <a href="https://en.wikipedia.org/wiki/Morten_Alb%C3%A6k">Morten Albæk</a>
               </li>
             </ul>
-            <h2>Comics</h2>
+            <h2>Finance</h2>
             <ul>
               <li>
-                <a href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4?ac=1&from_search=true&qid=44AFMXtmsq&rank=4">
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <a href="https://www.goodreads.com/book/show/24983640-independ-zate-de-pap-estado">
+                  Independízate de Papá Estado: Empieza a invertir HOY y jubílate millonario
+                </a>{' '}
+                by <a href="https://carlosgalan.net/">Carlos Galán</a>
+              </li>
+            </ul>
+            <h2>Politics</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <a href="https://www.goodreads.com/book/show/49439298-as-est-n-las-cosas">
+                  Así están las cosas: Cómo ganamos en Europa
+                </a>{' '}
+                by <a href="https://en.wikipedia.org/wiki/Gonzalo_Boye">Gonzalo Boye</a>
+              </li>
+            </ul>
+            <h2>Fiction</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="comic">
+                  🗯
+                </span>{' '}
+                <a href="https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1">
+                  The Walking Dead, Vol 1: Days Gone Bye
+                </a>{' '}
+                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
+                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
+                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
+              </li>
+              <li>
+                <span role="img" aria-label="comic">
+                  🗯
+                </span>{' '}
+                <a href="https://www.goodreads.com/book/show/138396.The_Walking_Dead_Vol_2">
+                  The Walking Dead, Vol 2: Miles Behind Us
+                </a>{' '}
+                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
+                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
+                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
+              </li>
+              <li>
+                <span role="img" aria-label="comic">
+                  🗯
+                </span>{' '}
+                <a href="https://www.goodreads.com/book/show/30069.The_Walking_Dead_Vol_3">
+                  The Walking Dead, Vol 3: Safety Behind Bars
+                </a>{' '}
+                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
+                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
+                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
+              </li>
+              <li>
+                <span role="img" aria-label="comic">
+                  🗯
+                </span>{' '}
+                <a href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4">
                   The Walking Dead, Vol 4: The Heart's Desire
                 </a>{' '}
                 by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
