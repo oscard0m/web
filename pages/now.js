@@ -21,7 +21,8 @@ export default function Now() {
             <p>
               This page was inspired by{' '}
               <a href="https://blog.pragmaticengineer.com/now/">Gergely Orosz</a> and{' '}
-              <a href="https://sive.rs/nowff">Derek Sivers</a> now pages.
+              <a href="https://sive.rs/nowff">Derek Sivers</a> now pages
+              <sup>*</sup>.
             </p>
             <p>Here's what I'm doing now.</p>
             <br />
@@ -87,6 +88,14 @@ export default function Now() {
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
               <a href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</a>
+            </p>
+            <hr></hr>
+            <p>
+              <small>
+                <sup>*</sup>
+                Do you want to know more about now pages? Take a look into{' '}
+                <a href="https://nownownow.com/about">nownownow.com/about</a>
+              </small>
             </p>
           </div>
         </div>
