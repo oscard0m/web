@@ -176,63 +176,111 @@ export default function Now() {
             </ul>
             <br></br>
             <h1>What I'm watching</h1>
-            <h2>Movies</h2>
+            <h2>Drama</h2>
             <ul>
               <li>
+                <span role="img" aria-label="movie  ">
+                  🎥
+                </span>{' '}
                 <a href="https://www.imdb.com/title/tt4080728/?ref_=fn_al_tt_1">
                   En man som heter Ove
                 </a>{' '}
                 🇸🇪
               </li>
               <li>
-                <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Dune</a> 🇺🇸
-              </li>
-              <li>
-                <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Kill Bill: Vol 1</a>{' '}
-                (re-watched) 🇺🇸
-              </li>
-            </ul>
-            <h2>TV Series</h2>
-            <ul>
-              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
                 <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Succession</a>{' '}
                 (Season 3) 🇺🇸
               </li>
               <li>
-                <a href="https://www.imdb.com/title/tt10883660/?ref_=fn_al_tt_1">Antidisturbios</a>{' '}
-                (Miniseries) 🇪🇸
-              </li>
-              <li>
-                <a href="https://www.imdb.com/title/tt7661390/?ref_=fn_al_tt_1">Gangs of London</a>{' '}
-                (Season 1) 🇬🇧
-              </li>
-              <li>
-                <a href="https://www.imdb.com/title/tt7263154/?ref_=fn_al_tt_1">Undercover</a>{' '}
-                (Season 1) 🇧🇪
-              </li>
-              <li>
-                <a href="https://www.imdb.com/title/tt0386676/?ref_=fn_al_tt_1">The Office</a>{' '}
-                (Season 1) 🇺🇸
-              </li>
-              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
                 <a href="https://www.imdb.com/title/tt5753856/?ref_=fn_al_tt_1">Dark</a>{' '}
                 (re-watching) (Season 1) 🇩🇪
               </li>
               <li>
-                <a href="https://www.imdb.com/title/tt14113324/?ref_=fn_al_tt_1">
-                  All or Nothing: Juventus
-                </a>{' '}
-                (Season 1) 🇬🇧
-              </li>
-              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
                 <a href="https://www.imdb.com/title/tt3655448/?ref_=fn_al_tt_1">The Young Pope</a>{' '}
                 (Season 1) 🇮🇹
               </li>
+            </ul>
+            <h2>Fiction</h2>
+            <ul>
               <li>
+                <span role="img" aria-label="movie  ">
+                  🎥
+                </span>{' '}
+                <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Dune</a> 🇺🇸
+              </li>
+            </ul>
+            <h2>Action</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="movie  ">
+                  🎥
+                </span>{' '}
+                <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Kill Bill: Vol 1</a>{' '}
+                (re-watched) 🇺🇸
+              </li>
+            </ul>
+            <h2>Comedy</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <a href="https://www.imdb.com/title/tt0386676/?ref_=fn_al_tt_1">The Office</a>{' '}
+                (Season 1) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
                 <a href="https://www.imdb.com/title/tt0381733/?ref_=fn_al_tt_1">
                   Aquí no hay quien viva
                 </a>{' '}
                 (Season 1) 🇪🇸
+              </li>
+            </ul>
+            <h2>Thriller</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <a href="https://www.imdb.com/title/tt10883660/?ref_=fn_al_tt_1">Antidisturbios</a>{' '}
+                (Miniseries) 🇪🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <a href="https://www.imdb.com/title/tt7661390/?ref_=fn_al_tt_1">Gangs of London</a>{' '}
+                (Season 1) 🇬🇧
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <a href="https://www.imdb.com/title/tt7263154/?ref_=fn_al_tt_1">Undercover</a>{' '}
+                (Season 1) 🇧🇪
+              </li>
+            </ul>
+            <h2>Documental</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <a href="https://www.imdb.com/title/tt14113324/?ref_=fn_al_tt_1">
+                  All or Nothing: Juventus
+                </a>{' '}
+                (Season 1) 🇬🇧
               </li>
             </ul>
             <hr></hr>
