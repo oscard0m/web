@@ -13,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now (Dec 2021)
+            Now (Jan 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -122,6 +122,18 @@ export default function Now() {
             </p>
             <br />
             <h1>Now I’m reading</h1>
+            <h2>Sports</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <a href="https://www.goodreads.com/book/show/23199435-herr-pep">Herr Pep</a> by{' '}
+                <a href="https://www.goodreads.com/author/show/18740681.Mart_Perarnau_Grau">
+                  Martí Perarnau
+                </a>
+              </li>
+            </ul>
             <h2>Psychology</h2>
             <ul>
               <li>
@@ -134,30 +146,6 @@ export default function Now() {
                 by <a href="https://en.wikipedia.org/wiki/Morten_Alb%C3%A6k">Morten Albæk</a>
               </li>
             </ul>
-            <h2>Finance</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="book">
-                  📚
-                </span>{' '}
-                <a href="https://www.goodreads.com/book/show/24983640-independ-zate-de-pap-estado">
-                  Independízate de Papá Estado: Empieza a invertir HOY y jubílate millonario
-                </a>{' '}
-                by <a href="https://carlosgalan.net/">Carlos Galán</a>
-              </li>
-            </ul>
-            <h2>Politics</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="book">
-                  📚
-                </span>{' '}
-                <a href="https://www.goodreads.com/book/show/49439298-as-est-n-las-cosas">
-                  Así están las cosas: Cómo ganamos en Europa
-                </a>{' '}
-                by <a href="https://en.wikipedia.org/wiki/Gonzalo_Boye">Gonzalo Boye</a>
-              </li>
-            </ul>
             <h2>Fiction</h2>
             <ul>
               <li>
@@ -165,59 +153,39 @@ export default function Now() {
                   🗯
                 </span>{' '}
                 <a href="https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1">
-                  The Walking Dead, Vol 1: Days Gone Bye
+                  The Walking Dead
                 </a>{' '}
                 by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
                 <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
                 <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
-              </li>
-              <li>
-                <span role="img" aria-label="comic">
-                  🗯
-                </span>{' '}
-                <a href="https://www.goodreads.com/book/show/138396.The_Walking_Dead_Vol_2">
-                  The Walking Dead, Vol 2: Miles Behind Us
-                </a>{' '}
-                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
-                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
-                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
-              </li>
-              <li>
-                <span role="img" aria-label="comic">
-                  🗯
-                </span>{' '}
-                <a href="https://www.goodreads.com/book/show/30069.The_Walking_Dead_Vol_3">
-                  The Walking Dead, Vol 3: Safety Behind Bars
-                </a>{' '}
-                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
-                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
-                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
-              </li>
-              <li>
-                <span role="img" aria-label="comic">
-                  🗯
-                </span>{' '}
-                <a href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4">
-                  The Walking Dead, Vol 4: The Heart's Desire
-                </a>{' '}
-                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
-                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
-                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
+                <ul>
+                  <li>
+                    <a href="https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1">
+                      Vol 1: Days Gone Bye
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.goodreads.com/book/show/138396.The_Walking_Dead_Vol_2">
+                      Vol 2: Miles Behind Us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.goodreads.com/book/show/30069.The_Walking_Dead_Vol_3">
+                      Vol 3: Safety Behind Bars
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4">
+                      Vol 4: The Heart's Desire
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
             <br></br>
             <h1>Now I'm watching</h1>
             <h2>Drama</h2>
             <ul>
-              <li>
-                <span role="img" aria-label="movie  ">
-                  🎥
-                </span>{' '}
-                <a href="https://www.imdb.com/title/tt4080728/?ref_=fn_al_tt_1">
-                  En man som heter Ove
-                </a>{' '}
-                🇸🇪
-              </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
@@ -229,15 +197,14 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt5753856/?ref_=fn_al_tt_1">Dark</a>{' '}
-                (re-watching) (Season 1) 🇩🇪
+                <a href="https://www.filmaffinity.com/es/film310747.html">Mare of Easttown</a> (Mini
+                TV Show) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt3655448/?ref_=fn_al_tt_1">The Young Pope</a>{' '}
-                (Season 1) 🇮🇹
+                <a href="https://www.filmaffinity.com/es/film310747.html">Borgen</a> (Season 3) 🇩🇰
               </li>
             </ul>
             <h2>Fiction</h2>
@@ -246,17 +213,17 @@ export default function Now() {
                 <span role="img" aria-label="movie  ">
                   🎥
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Dune</a> 🇺🇸
+                <a href="https://www.filmaffinity.com/es/film491812.html">
+                  Spider-Man: No Way Home
+                </a>{' '}
+                🇺🇸
               </li>
-            </ul>
-            <h2>Action</h2>
-            <ul>
               <li>
-                <span role="img" aria-label="movie  ">
-                  🎥
+                <span role="img" aria-label="tv series  ">
+                  📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Kill Bill: Vol 1</a>{' '}
-                (re-watched) 🇺🇸
+                <a href="https://www.imdb.com/title/tt13668894/">The Book of Boba Fett</a> (Season
+                1) 🇺🇸
               </li>
             </ul>
             <h2>Comedy</h2>
@@ -265,17 +232,17 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt0386676/?ref_=fn_al_tt_1">The Office</a>{' '}
-                (Season 1) 🇺🇸
+                <a href="https://www.imdb.com/title/tt0381733/?ref_=fn_al_tt_1">
+                  Aquí no hay quien viva
+                </a>{' '}
+                (Season 2) 🇪🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt0381733/?ref_=fn_al_tt_1">
-                  Aquí no hay quien viva
-                </a>{' '}
-                (Season 1) 🇪🇸
+                <a href="https://www.imdb.com/title/tt6524350/?ref_=fn_al_tt_1">Big Mouth</a>{' '}
+                (Season 4) 🇺🇸
               </li>
             </ul>
             <h2>Thriller</h2>
@@ -285,21 +252,14 @@ export default function Now() {
                   📺
                 </span>{' '}
                 <a href="https://www.imdb.com/title/tt10883660/?ref_=fn_al_tt_1">Antidisturbios</a>{' '}
-                (Miniseries) 🇪🇸
+                (Mini TV Series) 🇪🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt7661390/?ref_=fn_al_tt_1">Gangs of London</a>{' '}
-                (Season 1) 🇬🇧
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <a href="https://www.imdb.com/title/tt7263154/?ref_=fn_al_tt_1">Undercover</a>{' '}
-                (Season 1) 🇧🇪
+                <a href="https://www.filmaffinity.com/es/film310747.html">The Tourist</a> (Mini TV
+                Series) 🇦🇺{' '}
               </li>
             </ul>
             <h2>Documental</h2>
@@ -308,10 +268,14 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt14113324/?ref_=fn_al_tt_1">
-                  All or Nothing: Juventus
-                </a>{' '}
-                (Season 1) 🇬🇧
+                <a href="https://www.imdb.com/title/tt14818454/?ref_=fn_al_tt_3">Cat People</a>{' '}
+                (Mini TV Show) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="movies">
+                  🎥
+                </span>{' '}
+                <a href="https://www.filmaffinity.com/es/film176083.html">Fake Famous</a> 🇺🇸
               </li>
             </ul>
             <hr></hr>
