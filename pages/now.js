@@ -73,6 +73,31 @@ export default function Now() {
               <a href="https://epicreact.dev/">Svelte (Frontend Masters)</a> by its creator{' '}
               <a href="https://twitter.com/Rich_Harris">Rich Harris</a>.
             </p>
+            <h2>Rust</h2>
+            <p>
+              <a href="https://rust-lang.org">Rust</a> is here to stay. A lot of interesting
+              projects are going on, the community is huge and{' '}
+              <a href="https://insights.stackoverflow.com/survey/2021?utm_source=twitter&utm_medium=social&utm_campaign=dev-survey-2020#technology-most-loved-dreaded-and-wanted">
+                loves it
+              </a>
+              , and I'm excited to learn more about it.
+            </p>
+            <p>
+              Due to <a href="/about">my interest</a> in web development, software automation and
+              the opportunity to learn and use Rust with <a href="https://simplabs.com">simplabs</a>
+              , I decided to start doing my first steps with it.
+            </p>
+            <p>
+              The course I've chosen to do so is{' '}
+              <a href="https://exercism.org/tracks/rust">Exercism.io's Rust track</a>.
+            </p>
+            <p>
+              If you are curious about my progress and submitted solutions to the exercises, you can
+              see them{' '}
+              <a href="https://exercism.org/profiles/dominguezcelada/solutions?track_slug=rust">
+                here
+              </a>
+            </p>
             <br />
             <h1>Open Source and Personal Projects</h1>
             <h2>This website</h2>
