@@ -128,7 +128,7 @@ export default function Now() {
                 <span role="img" aria-label="book">
                   📚
                 </span>{' '}
-                <a hred="https://www.goodreads.com/book/show/48725742-one-life">
+                <a href="https://www.goodreads.com/book/show/48725742-one-life">
                   One Life: How we forgot to live meaningful lives
                 </a>{' '}
                 by <a href="https://en.wikipedia.org/wiki/Morten_Alb%C3%A6k">Morten Albæk</a>
