@@ -1,6 +1,6 @@
 ---
 title: 'TMIR: One Life: How we forgot to live meaningful lives by Morten Albæk'
-date: '2021-12-1'
+date: '2021-12-31'
 tags: ['life', 'leadership', 'psichology', 'this-month-i-have-read']
 draft: false
 summary: 'Notes taken, resources collected and blog post ideas obtained from One Life: How we forgot to live meaningful lives book'
