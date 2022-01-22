@@ -26,12 +26,18 @@ export default function Now() {
             </p>
             <p>Here's what I'm doing now.</p>
             <br />
-            <h1>Courses</h1>
+            <h1>Now I'm learning</h1>
             <h2>React</h2>
             <p>
-              In my daily job I did not have the chance to learn and play with{' '}
-              <a href="https://reactjs.org">React</a> so I decided it's time to start learning the
-              fundamentals and expertise it.
+              In my previous job at <a href="https://www.marfeel.com/">Marfeel</a> I did not have
+              the chance to learn and play with <a href="https://reactjs.org">React</a> as much as I
+              would have liked. In my current job at <a href="https://www.simplabs.com">simplabs</a>{' '}
+              I'm working on a project built in React.
+            </p>
+            <p>
+              It's good to learn by doing but when we cross that with delivering value in a certain
+              amount of time is when some of the foundations can be left a part so that's why I've
+              decided it's time to start learning the fundamentals and become a React expert.
             </p>
             <p>
               The course I've chosen to do so is <a href="https://epicreact.dev/">Epic React</a> by{' '}
@@ -115,7 +121,7 @@ export default function Now() {
               <a href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</a>
             </p>
             <br />
-            <h1>What I’m reading about</h1>
+            <h1>Now I’m reading</h1>
             <h2>Psychology</h2>
             <ul>
               <li>
@@ -200,7 +206,7 @@ export default function Now() {
               </li>
             </ul>
             <br></br>
-            <h1>What I'm watching</h1>
+            <h1>Now I'm watching</h1>
             <h2>Drama</h2>
             <ul>
               <li>
