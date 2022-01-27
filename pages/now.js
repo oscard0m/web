@@ -277,6 +277,12 @@ export default function Now() {
                 </span>{' '}
                 <a href="https://www.filmaffinity.com/es/film176083.html">Fake Famous</a> 🇺🇸
               </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <a href="https://www.filmaffinity.com/es/film673343.html">Neymar: The Perfect Chaos</a> 🇺🇸
+              </li>
             </ul>
             <hr></hr>
             <p>
