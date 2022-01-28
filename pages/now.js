@@ -206,6 +206,12 @@ export default function Now() {
                 </span>{' '}
                 <a href="https://www.filmaffinity.com/es/film310747.html">Borgen</a> (Season 3) 🇩🇰
               </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <a href="https://www.filmaffinity.com/uk/film664726.html">Time</a> (Mini TV Show) 🇬🇧
+              </li>
             </ul>
             <h2>Fiction</h2>
             <ul>
