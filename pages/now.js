@@ -1,5 +1,4 @@
 import siteMetadata from '@/data/siteMetadata'
-import SocialIcon from '@/components/social-icons'
 import { PageSeo } from '@/components/SEO'
 
 export default function Now() {
@@ -287,7 +286,10 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.filmaffinity.com/es/film673343.html">Neymar: The Perfect Chaos</a> 🇺🇸
+                <a href="https://www.filmaffinity.com/es/film673343.html">
+                  Neymar: The Perfect Chaos
+                </a>{' '}
+                🇺🇸
               </li>
             </ul>
             <hr></hr>
