@@ -1,5 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import { PageSeo } from '@/components/SEO'
+import Link from '@/components/Link'
 
 export default function Now() {
   return (
@@ -12,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now (Jan 2022)
+            Now (Feb 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -45,39 +46,6 @@ export default function Now() {
             <p>
               You can read about this journey in my <a href="/blog">blog</a>
             </p>
-
-            <h2>Svelte</h2>
-            <p>
-              During my job research, I had the chance to take a LiveCoding session in one of the
-              stages in the interview process with{' '}
-              <a href="https://twitter.com/pichfl">Florian Pichler</a> for{' '}
-              <a href="https://simplabs.com">simplabs</a> and the statement was: "Let's build a
-              TO-DO list app together, and the condition is to use a component framework none of us
-              have used before".
-            </p>
-            <p>
-              The election was <a href="https://svelte.dev/">Svelte</a> and, after checking their
-              docs and playing around I really got in love with it. I mainly like the way it solves
-              classic Component problems for web development:
-              <ul>
-                <li>
-                  <a href="https://svelte.dev/blog/write-less-code">Less code</a>
-                </li>
-                <li>
-                  <a href="https://svelte.dev/blog/virtual-dom-is-pure-overhead">No virtual DOM</a>
-                </li>
-                <li>
-                  <a href="https://svelte.dev/blog/svelte-3-rethinking-reactivity">
-                    Truly reactive
-                  </a>
-                </li>
-              </ul>
-            </p>
-            <p>
-              The course I've chosen to do so is{' '}
-              <a href="https://epicreact.dev/">Svelte (Frontend Masters)</a> by its creator{' '}
-              <a href="https://twitter.com/Rich_Harris">Rich Harris</a>.
-            </p>
             <h2>Rust</h2>
             <p>
               <a href="https://rust-lang.org">Rust</a> is here to stay. A lot of interesting
@@ -105,15 +73,93 @@ export default function Now() {
             </p>
             <br />
             <h1>Open Source and Personal Projects</h1>
-            <h2>This website</h2>
+            <h2>Octokit</h2>
             <p>
-              This website you are visiting right now is still under construction. New features,
-              creation of content, small adjustments, changes in the UI are part of my main focus
-              right now.
+              <Link href="https://github.com/octokit">Octokit</Link> is the official client that can
+              be used to send requests to{' '}
+              <Link href="https://docs.github.com/rest/">GitHub's REST API</Link> and queries to{' '}
+              <Link href="https://docs.github.com/graphql">GitHub's GraphQL API</Link>.
             </p>
             <p>
-              You can take a look into the code <a href="https://github.com/oscard0m/web">here</a>.
+              Its ecosystem is organized in multiple repositories under{' '}
+              <Link href="https://github.com/octokit">GitHub</Link>, which includes a{' '}
+              <i>plugin system</i> with different <i>plugins</i> you can plug to your Octokit
+              instance.
             </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>octokit.js</h3>
+            <p>
+              <Link href="https://github.com/octokit/octokit.js">octokit.js</Link> is the repository
+              in Octokit ecosystem corresponding to the all-batteries-included GitHub SDK for
+              Browsers, Node.js, and Deno.
+            </p>
+            <ul>
+              <li>
+                [<Link href="https://github.com/octokit/octokit.js/pull/2206">PR #2206</Link>]
+                Improved Octokit Docs for contributors adding an explanation on what to do if a Pull
+                Request is merged and the message used for it is not{' '}
+                <Link href="https://github.com/semantic-release/semantic-release">
+                  semantic-release
+                </Link>{' '}
+                compliant.
+              </li>
+              <li>
+                [<Link href="https://github.com/octokit/octokit.js/pull/2205">PR #2205</Link>]
+                Improved Octokit Docs replacing <code>@octokit/auth-oauth-user-client</code> in the
+                examples with a more generic one
+              </li>
+              <li>
+                [
+                <Link href="https://github.com/octokit/octokit.js/discussions/2204">
+                  Discussion 2204
+                </Link>
+                ] Created a new discussion to encourage contributors to use{' '}
+                <code>octokit.log.*</code> instead of <code>console.*</code>
+              </li>
+            </ul>
+            <h3>@octokit/core.js</h3>
+            <p>
+              <Link href="https://github.com/octokit/core.js">@octokit/core.js</Link> is the
+              extendable client for GitHub's REST & GraphQL APIs
+            </p>
+            <ul>
+              <li>
+                [<Link href="https://github.com/octokit/core.js/issues/449">Issue #449</Link>][
+                <Link href="https://github.com/octokit/core.js/pull/450">PR #450</Link>] Improved
+                Octokit typing in TypeScript by converting <code>type OctokitOptions</code> into{' '}
+                <code>interface OctokitOptions</code>.
+              </li>
+            </ul>
+            <h3>@octokit/plugin-throttling.js</h3>
+            <p>
+              <Link href="https://github.com/octokit/plugin-throttling.js">
+                @octokit/plugin-throttling.js
+              </Link>{' '}
+              is the Octokit plugin for GitHub’s recommended request throttling
+            </p>
+            <ul>
+              <li>
+                [
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/459">PR #459</Link>
+                ] Replace the usage of <code>console.warn</code> in this plugin to use the more
+                generic <code>octokit.log.warn</code>
+              </li>
+              <li>
+                [
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/457">PR #457</Link>
+                ] Improve types for <code>ThrottlingOctokitOptions</code>.
+              </li>
+              <li>
+                [
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/455">PR #455</Link>
+                ] Replace 'abuse limit' with 'secondary limit' due to a change in GitHub's API.
+              </li>
+              <li>
+                [
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/456">PR #456</Link>
+                ] Reach 100% test coverage in the repository.
+              </li>
+            </ul>
             <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
