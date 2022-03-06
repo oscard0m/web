@@ -167,18 +167,6 @@ export default function Now() {
             </p>
             <br />
             <h1>Now I’m reading</h1>
-            <h2>Sports</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="book">
-                  📚
-                </span>{' '}
-                <a href="https://www.goodreads.com/book/show/23199435-herr-pep">Herr Pep</a> by{' '}
-                <a href="https://www.goodreads.com/author/show/18740681.Mart_Perarnau_Grau">
-                  Martí Perarnau
-                </a>
-              </li>
-            </ul>
             <h2>Psychology</h2>
             <ul>
               <li>
@@ -222,6 +210,16 @@ export default function Now() {
                   <li>
                     <a href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4">
                       Vol 4: The Heart's Desire
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.goodreads.com/book/show/30065.The_Walking_Dead_Vol_5">
+                      Vol 5: The Best Defense
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.goodreads.com/book/show/138395.The_Walking_Dead_Vol_6">
+                      Vol 6: This Sorrowful Life
                     </a>
                   </li>
                 </ul>
