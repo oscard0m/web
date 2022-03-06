@@ -20,8 +20,8 @@ export default function Now() {
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
               This page was inspired by{' '}
-              <a href="https://blog.pragmaticengineer.com/now/">Gergely Orosz</a> and{' '}
-              <a href="https://sive.rs/nowff">Derek Sivers</a> now pages
+              <Link href="https://blog.pragmaticengineer.com/now/">Gergely Orosz</Link> and{' '}
+              <Link href="https://sive.rs/nowff">Derek Sivers</Link> now pages
               <sup>*</sup>.
             </p>
             <p>Here's what I'm doing now.</p>
@@ -29,10 +29,11 @@ export default function Now() {
             <h1>Now I'm learning</h1>
             <h2>React</h2>
             <p>
-              In my previous job at <a href="https://www.marfeel.com/">Marfeel</a> I did not have
-              the chance to learn and play with <a href="https://reactjs.org">React</a> as much as I
-              would have liked. In my current job at <a href="https://www.simplabs.com">simplabs</a>{' '}
-              I'm working on a project built in React.
+              In my previous job at <Link href="https://www.marfeel.com/">Marfeel</Link> I did not
+              have the chance to learn and play with <Link href="https://reactjs.org">React</Link>{' '}
+              as much as I would have liked. In my current job at{' '}
+              <Link href="https://www.simplabs.com">simplabs</Link> I'm working on a project built
+              in React.
             </p>
             <p>
               It's good to learn by doing but when we cross that with delivering value in a certain
@@ -40,36 +41,38 @@ export default function Now() {
               decided it's time to start learning the fundamentals and become a React expert.
             </p>
             <p>
-              The course I've chosen to do so is <a href="https://epicreact.dev/">Epic React</a> by{' '}
-              <a href="https://twitter.com/kentcdodds">Kent C Dodds</a>.
+              The course I've chosen to do so is{' '}
+              <Link href="https://epicreact.dev/">Epic React</Link> by{' '}
+              <Link href="https://twitter.com/kentcdodds">Kent C Dodds</Link>.
             </p>
             <p>
-              You can read about this journey in my <a href="/blog">blog</a>
+              You can read about this journey in my <Link href="/blog">blog</Link>
             </p>
             <h2>Rust</h2>
             <p>
-              <a href="https://rust-lang.org">Rust</a> is here to stay. A lot of interesting
+              <Link href="https://rust-lang.org">Rust</Link> is here to stay. A lot of interesting
               projects are going on, the community is huge and{' '}
-              <a href="https://insights.stackoverflow.com/survey/2021?utm_source=twitter&utm_medium=social&utm_campaign=dev-survey-2020#technology-most-loved-dreaded-and-wanted">
+              <Link href="https://insights.stackoverflow.com/survey/2021?utm_source=twitter&utm_medium=social&utm_campaign=dev-survey-2020#technology-most-loved-dreaded-and-wanted">
                 loves it
-              </a>
+              </Link>
               , and I'm excited to learn more about it.
             </p>
             <p>
-              Due to <a href="/about">my interest</a> in web development, software automation and
-              the opportunity to learn and use Rust with <a href="https://simplabs.com">simplabs</a>
-              , I decided to start doing my first steps with it.
+              Due to <Link href="/about">my interest</Link> in web development, software automation
+              and the opportunity to learn and use Rust with{' '}
+              <Link href="https://simplabs.com">simplabs</Link>, I decided to start doing my first
+              steps with it.
             </p>
             <p>
               The course I've chosen to do so is{' '}
-              <a href="https://exercism.org/tracks/rust">Exercism.io's Rust track</a>.
+              <Link href="https://exercism.org/tracks/rust">Exercism.io's Rust track</Link>.
             </p>
             <p>
               If you are curious about my progress and submitted solutions to the exercises, you can
               see them{' '}
-              <a href="https://exercism.org/profiles/dominguezcelada/solutions?track_slug=rust">
+              <Link href="https://exercism.org/profiles/dominguezcelada/solutions?track_slug=rust">
                 here
-              </a>
+              </Link>
             </p>
             <br />
             <h1>Open Source and Personal Projects</h1>
@@ -163,7 +166,7 @@ export default function Now() {
             <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
-              <a href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</a>
+              <Link href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</Link>
             </p>
             <br />
             <h1>Now I’m reading</h1>
@@ -173,10 +176,10 @@ export default function Now() {
                 <span role="img" aria-label="book">
                   📚
                 </span>{' '}
-                <a href="https://www.goodreads.com/book/show/48725742-one-life">
+                <Link href="https://www.goodreads.com/book/show/48725742-one-life">
                   One Life: How we forgot to live meaningful lives
-                </a>{' '}
-                by <a href="https://en.wikipedia.org/wiki/Morten_Alb%C3%A6k">Morten Albæk</a>
+                </Link>{' '}
+                by <Link href="https://en.wikipedia.org/wiki/Morten_Alb%C3%A6k">Morten Albæk</Link>
               </li>
             </ul>
             <h2>Fiction</h2>
@@ -185,42 +188,42 @@ export default function Now() {
                 <span role="img" aria-label="comic">
                   🗯
                 </span>{' '}
-                <a href="https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1">
+                <Link href="https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1">
                   The Walking Dead
-                </a>{' '}
-                by <a href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</a>,{' '}
-                <a href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</a> &{' '}
-                <a href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</a>
+                </Link>{' '}
+                by <Link href="https://en.wikipedia.org/wiki/Robert_Kirkman">Robert Kirkman</Link>,{' '}
+                <Link href="https://en.wikipedia.org/wiki/Charlie_Adlard">Charlie Adlard</Link> &{' '}
+                <Link href="https://en.wikipedia.org/wiki/Cliff_Rathburn">Cliff Rathburn</Link>
                 <ul>
                   <li>
-                    <a href="https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1">
+                    <Link href="https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1">
                       Vol 1: Days Gone Bye
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.goodreads.com/book/show/138396.The_Walking_Dead_Vol_2">
+                    <Link href="https://www.goodreads.com/book/show/138396.The_Walking_Dead_Vol_2">
                       Vol 2: Miles Behind Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.goodreads.com/book/show/30069.The_Walking_Dead_Vol_3">
+                    <Link href="https://www.goodreads.com/book/show/30069.The_Walking_Dead_Vol_3">
                       Vol 3: Safety Behind Bars
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4">
+                    <Link href="https://www.goodreads.com/book/show/138397.The_Walking_Dead_Vol_4">
                       Vol 4: The Heart's Desire
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.goodreads.com/book/show/30065.The_Walking_Dead_Vol_5">
+                    <Link href="https://www.goodreads.com/book/show/30065.The_Walking_Dead_Vol_5">
                       Vol 5: The Best Defense
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.goodreads.com/book/show/138395.The_Walking_Dead_Vol_6">
+                    <Link href="https://www.goodreads.com/book/show/138395.The_Walking_Dead_Vol_6">
                       Vol 6: This Sorrowful Life
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -233,46 +236,46 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt7660850/?ref_=fn_al_tt_1">Succession</a>{' '}
-                (Season 3) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film310747.html">Borgen</Link> (Season
+                3) 🇩🇰
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.filmaffinity.com/es/film310747.html">Mare of Easttown</a> (Mini
-                TV Show) 🇺🇸
+                <Link href="https://www.filmaffinity.com/uk/film664726.html">Time</Link> (Mini TV
+                Show) 🇬🇧
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.filmaffinity.com/es/film310747.html">Borgen</a> (Season 3) 🇩🇰
+                <Link href="https://www.filmaffinity.com/es/film525222.html">Gangs of London</Link>{' '}
+                (Season 1) 🇬🇧
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.filmaffinity.com/uk/film664726.html">Time</a> (Mini TV Show) 🇬🇧
+                <Link href="https://www.filmaffinity.com/es/film241711.html">Severance</Link>{' '}
+                (Season 1) 🇺🇸
               </li>
             </ul>
             <h2>Fiction</h2>
             <ul>
               <li>
-                <span role="img" aria-label="movie  ">
-                  🎥
+                <span role="img" aria-label="tv series  ">
+                  📺
                 </span>{' '}
-                <a href="https://www.filmaffinity.com/es/film491812.html">
-                  Spider-Man: No Way Home
-                </a>{' '}
-                🇺🇸
+                <Link href="https://www.imdb.com/title/tt13668894/">The Book of Boba Fett</Link>{' '}
+                (Season 1) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series  ">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt13668894/">The Book of Boba Fett</a> (Season
-                1) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film565636.html">Raised by Wolves</Link>{' '}
+                (Season 1) 🇺🇸
               </li>
             </ul>
             <h2>Comedy</h2>
@@ -281,34 +284,19 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt0381733/?ref_=fn_al_tt_1">
+                <Link href="https://www.imdb.com/title/tt0381733/?ref_=fn_al_tt_1">
                   Aquí no hay quien viva
-                </a>{' '}
+                </Link>{' '}
                 (Season 2) 🇪🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt6524350/?ref_=fn_al_tt_1">Big Mouth</a>{' '}
-                (Season 4) 🇺🇸
-              </li>
-            </ul>
-            <h2>Thriller</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <a href="https://www.imdb.com/title/tt10883660/?ref_=fn_al_tt_1">Antidisturbios</a>{' '}
-                (Mini TV Series) 🇪🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <a href="https://www.filmaffinity.com/es/film310747.html">The Tourist</a> (Mini TV
-                Series) 🇦🇺{' '}
+                <Link href="https://www.filmaffinity.com/es/film650372.html">
+                  The Cuphead Show!
+                </Link>{' '}
+                (Season 1) 🇺🇸
               </li>
             </ul>
             <h2>Documental</h2>
@@ -317,23 +305,8 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <a href="https://www.imdb.com/title/tt14818454/?ref_=fn_al_tt_3">Cat People</a>{' '}
+                <Link href="https://www.filmaffinity.com/es/film377600.html">100 Foot Wave</Link>{' '}
                 (Mini TV Show) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="movies">
-                  🎥
-                </span>{' '}
-                <a href="https://www.filmaffinity.com/es/film176083.html">Fake Famous</a> 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <a href="https://www.filmaffinity.com/es/film673343.html">
-                  Neymar: The Perfect Chaos
-                </a>{' '}
-                🇺🇸
               </li>
             </ul>
             <hr></hr>
@@ -341,7 +314,7 @@ export default function Now() {
               <small>
                 <sup>*</sup>
                 Do you want to know more about now pages? Take a look into{' '}
-                <a href="https://nownownow.com/about">nownownow.com/about</a>
+                <Link href="https://nownownow.com/about">nownownow.com/about</Link>
               </small>
             </p>
           </div>
