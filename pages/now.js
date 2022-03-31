@@ -243,39 +243,24 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/uk/film664726.html">Time</Link> (Mini TV
-                Show) 🇬🇧
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film525222.html">Gangs of London</Link>{' '}
-                (Season 1) 🇬🇧
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
                 <Link href="https://www.filmaffinity.com/es/film241711.html">Severance</Link>{' '}
                 (Season 1) 🇺🇸
               </li>
-            </ul>
-            <h2>Fiction</h2>
-            <ul>
               <li>
-                <span role="img" aria-label="tv series  ">
+                <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.imdb.com/title/tt13668894/">The Book of Boba Fett</Link>{' '}
+                <Link href="https://www.filmaffinity.com/es/film976626.html">
+                  Super Pumped: The Battle of Uber
+                </Link>{' '}
                 (Season 1) 🇺🇸
               </li>
               <li>
-                <span role="img" aria-label="tv series  ">
+                <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film565636.html">Raised by Wolves</Link>{' '}
-                (Season 1) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film851019.html">The Young Pope</Link>{' '}
+                (Season 1) 🇮🇹
               </li>
             </ul>
             <h2>Comedy</h2>
@@ -284,17 +269,17 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.imdb.com/title/tt0381733/?ref_=fn_al_tt_1">
-                  Aquí no hay quien viva
+                <Link href="https://www.filmaffinity.com/es/film650372.html">
+                  The Cuphead Show!
                 </Link>{' '}
-                (Season 2) 🇪🇸
+                (Season 1) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film650372.html">
-                  The Cuphead Show!
+                <Link href="https://www.filmaffinity.com/es/film930636.html">
+                  Winning Time: The rise of the Lakers Dynasty
                 </Link>{' '}
                 (Season 1) 🇺🇸
               </li>
@@ -305,7 +290,25 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film377600.html">100 Foot Wave</Link>{' '}
+                <Link href="https://www.filmaffinity.com/es/film348887.html">
+                  Simeone, vivir partido a partido
+                </Link>{' '}
+                (Mini TV Show) 🇪🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film742708.html">
+                  All or nothing: Juventus
+                </Link>{' '}
+                (Mini TV Show) 🇬🇧
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film257290.html">Phoenix Rising</Link>{' '}
                 (Mini TV Show) 🇺🇸
               </li>
             </ul>
