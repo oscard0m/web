@@ -13,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now (Feb 2022)
+            Now (Apr 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -76,6 +76,30 @@ export default function Now() {
             </p>
             <br />
             <h1>Open Source and Personal Projects</h1>
+            <h2>MSW</h2>
+            <p>
+              <Link href="https://github.com/mswjs/msw">Mock Service Worker (MSW)</Link> is an API
+              mocking library for browser and Node.js.
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>mswjs/msw</h3>
+            <ul>
+              <li>
+                <p>
+                  [<Link href="https://github.com/mswjs/msw/pull/1170">Pull Request</Link>]{' '}
+                  ci(workflows): upgrade <code>actions/checkout</code> and{' '}
+                  <code>actions/setup-node</code> to <code>v3</code>
+                </p>
+              </li>
+              <li>
+                [<Link href="https://github.com/mswjs/msw/discussions/1174">Discussion</Link>] Let's
+                explore existing ways to monitor our GitHub Actions!
+              </li>
+              <li>
+                [<Link href="https://github.com/mswjs/msw/discussions/1173">Discussion</Link>]{' '}
+                Automated Releases with <code>semantic-release</code> fails to push
+              </li>
+            </ul>
             <h2>Octokit</h2>
             <p>
               <Link href="https://github.com/octokit">Octokit</Link> is the official client that can
@@ -98,7 +122,7 @@ export default function Now() {
             </p>
             <ul>
               <li>
-                [<Link href="https://github.com/octokit/octokit.js/pull/2206">PR #2206</Link>]
+                [<Link href="https://github.com/octokit/octokit.js/pull/2206">Pull Request</Link>]
                 Improved Octokit Docs for contributors adding an explanation on what to do if a Pull
                 Request is merged and the message used for it is not{' '}
                 <Link href="https://github.com/semantic-release/semantic-release">
@@ -107,14 +131,14 @@ export default function Now() {
                 compliant.
               </li>
               <li>
-                [<Link href="https://github.com/octokit/octokit.js/pull/2205">PR #2205</Link>]
+                [<Link href="https://github.com/octokit/octokit.js/pull/2205">Pull Request</Link>]
                 Improved Octokit Docs replacing <code>@octokit/auth-oauth-user-client</code> in the
                 examples with a more generic one
               </li>
               <li>
                 [
                 <Link href="https://github.com/octokit/octokit.js/discussions/2204">
-                  Discussion 2204
+                  Discussion
                 </Link>
                 ] Created a new discussion to encourage contributors to use{' '}
                 <code>octokit.log.*</code> instead of <code>console.*</code>
@@ -127,10 +151,62 @@ export default function Now() {
             </p>
             <ul>
               <li>
-                [<Link href="https://github.com/octokit/core.js/issues/449">Issue #449</Link>][
-                <Link href="https://github.com/octokit/core.js/pull/450">PR #450</Link>] Improved
-                Octokit typing in TypeScript by converting <code>type OctokitOptions</code> into{' '}
-                <code>interface OctokitOptions</code>.
+                [<Link href="https://github.com/octokit/core.js/issues/449">Issue</Link>] [
+                <Link href="https://github.com/octokit/core.js/pull/450">Pull Request</Link>]
+                Improved Octokit typing in TypeScript by converting <code>type OctokitOptions</code>{' '}
+                into <code>interface OctokitOptions</code>.
+              </li>
+              <li>
+                [<Link href="https://github.com/octokit/core.js/issues/451">Issue</Link>] [
+                <Link href="https://github.com/octokit/core.js/pull/454">Pull Request</Link>] Fix
+                automatic release workflow by replacing the command <code>pika</code> used in the
+                build step with <code>pika-pack</code>.
+              </li>
+            </ul>
+            <h3>@octokit/plugin-rest-endpoint-methods.js</h3>
+            <p>
+              <Link href="https://github.com/octokit/plugin-rest-endpoint-methods.js">
+                @octokit/plugin-rest-endpoint-methods.js
+              </Link>{' '}
+              is the Octokit plugin adding one method for all of api.github.com REST API endpoints
+            </p>
+            <ul>
+              <li>
+                [
+                <Link href="https://github.com/octokit/plugin-rest-endpoint-methods.js/issues/476">
+                  Issue
+                </Link>
+                ] [
+                <Link href="https://github.com/octokit/plugin-rest-endpoint-methods.js/pull/479">
+                  Pull Request
+                </Link>
+                ] fixed a <code>CI</code> problem when running a <code>CodeQL</code> workflow in
+                Pull Requests opened by <code>dependabot</code>
+              </li>
+              <li>
+                [
+                <Link href="https://github.com/octokit/plugin-rest-endpoint-methods.js/issues/477">
+                  Issue
+                </Link>
+                ] [
+                <Link href="https://github.com/octokit/plugin-rest-endpoint-methods.js/pull/478">
+                  Pull Request
+                </Link>
+                ] remove unnecessary step to <code>checkout HEAD~2</code> in CI from PRs
+              </li>
+            </ul>
+            <h3>@octokit/plugin-retry.js</h3>
+            <p>
+              <Link href="https://github.com/octokit/plugin-retry.js">
+                @octokit/plugin-retry.js
+              </Link>{' '}
+              is the Octokit plugin for GitHub’s recommended request retries
+            </p>
+            <ul>
+              <li>
+                [<Link href="https://github.com/octokit/plugin-retry.js/issues/155">Issue</Link>] [
+                <Link href="https://github.com/octokit/plugin-retry.js/pull/303">Pull Request</Link>
+                ] Add <code>@octokit/core</code> as <code>peerDependency</code> to the project.
               </li>
             </ul>
             <h3>@octokit/plugin-throttling.js</h3>
@@ -143,26 +219,177 @@ export default function Now() {
             <ul>
               <li>
                 [
-                <Link href="https://github.com/octokit/plugin-throttling.js/pull/459">PR #459</Link>
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/459">
+                  Pull Request
+                </Link>
                 ] Replace the usage of <code>console.warn</code> in this plugin to use the more
                 generic <code>octokit.log.warn</code>
               </li>
               <li>
                 [
-                <Link href="https://github.com/octokit/plugin-throttling.js/pull/457">PR #457</Link>
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/457">
+                  Pull Request
+                </Link>
                 ] Improve types for <code>ThrottlingOctokitOptions</code>.
               </li>
               <li>
                 [
-                <Link href="https://github.com/octokit/plugin-throttling.js/pull/455">PR #455</Link>
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/455">
+                  Pull Request
+                </Link>
                 ] Replace 'abuse limit' with 'secondary limit' due to a change in GitHub's API.
               </li>
               <li>
                 [
-                <Link href="https://github.com/octokit/plugin-throttling.js/pull/456">PR #456</Link>
+                <Link href="https://github.com/octokit/plugin-throttling.js/pull/456">
+                  Pull Request
+                </Link>
                 ] Reach 100% test coverage in the repository.
               </li>
             </ul>
+            <h2>Octoherd</h2>
+            <p>
+              <Link href="https://github.com/octoherd">Octoherd</Link> is a tool to manage multiple
+              repository updates all at once.
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>octoherd/cli</h3>
+            <p>
+              <Link href="https://github.com/octoherd/cli">octoherd/cli</Link> is the repository in
+              charge of implementing the cli of Octoherd tool. It's core is implemented with
+              Octokit.
+            </p>
+            <ul>
+              <li>
+                [<Link href="https://github.com/octoherd/cli/issues/69">Issue</Link>] Reported a
+                'Release Job' failed due to an issue with <code>semantic-release</code>
+              </li>
+            </ul>
+            <h3>robvanderleek/awesome-octoherd-scripts</h3>
+            <p>
+              <Link href="https://github.com/robvanderleek/awesome-octoherd-scripts">
+                robvanderleek/awesome-octoherd-scripts
+              </Link>{' '}
+              is a carefully curated list of awesome Octoherd scripts for GitHub automation
+            </p>
+            <ul>
+              <li>
+                [
+                <Link href="https://github.com/robvanderleek/awesome-octoherd-scripts/issues/1">
+                  Issue
+                </Link>
+                ] Reported a proposal for auto-maintain the list of scripts
+              </li>
+            </ul>
+            <h3>facio-ergo-sum/repo-meister-issues</h3>
+            <p>
+              <Link href="https://github.com/facio-ergo-sum/repo-meister-issues/">
+                facio-ergo-sum/repo-meister-issues
+              </Link>{' '}
+              is a repository to collect feature requests ✨, bugs 🐛, and general discussion for
+              Repo Meister
+            </p>
+            <ul>
+              <li>
+                [
+                <Link href="https://github.com/facio-ergo-sum/repo-meister-issues/issues/1">
+                  Issue
+                </Link>
+                ] Reported suggestion for UI permitting to run to public repositories outside my
+                user/org
+              </li>
+            </ul>
+            <h2>semantic-release</h2>
+            <p>
+              <Link href="https://github.com/semantic-release/semantic-release">
+                semantic-release
+              </Link>{' '}
+              is a fully automated version management and package publishing
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>semantic-release/github</h3>
+            <ul>
+              <li>
+                <p>
+                  [<Link href="https://github.com/semantic-release/github/issues/299">Issue</Link>]
+                  [
+                  <Link href="https://github.com/semantic-release/github/pull/480">
+                    Draft Pull Request
+                  </Link>
+                  ] use Octokit's plugin-throttling instead of a custom implementation
+                </p>
+              </li>
+            </ul>
+            <h2>MDN: Mozilla Developer Network</h2>
+            <p>
+              <Link href="https://github.com/mdn/">Mozilla Developer Network (MDN)</Link>: Data and
+              tools related to MDN Web Docs (formerly Mozilla Developer Network, formerly Mozilla
+              Developer Center...)
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>mdn/content</h3>
+            <p>
+              <Link href="https://github.com/mdn/content">mdn/content</Link> is the repository for
+              managing the content behind MDN Web Docs
+            </p>
+            <ul>
+              <li>
+                <p>
+                  [<Link href="https://github.com/mdn/content/pull/13649">Pull Request</Link>] Add
+                  missing default value for <code>'rows'</code> attribute for{' '}
+                  <code>{'<textarea>'}</code>
+                </p>
+              </li>
+            </ul>
+            <h2>GitHub</h2>
+            <p>
+              <Link href="https://github.com/github/">GitHub</Link>: Millions of developers and
+              companies build, ship, and maintain their software on GitHub—the largest and most
+              advanced development platform in the world.
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>github/feedback</h3>
+            <p>
+              <Link href="https://github.com/github/feedback">github/feedback</Link> is the
+              repository for public feedback discussions for: GitHub for Mobile, GitHub Discussions,
+              GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!
+            </p>
+            <ul>
+              <li>
+                <p>
+                  [
+                  <Link href="https://github.com/github/feedback/discussions/13071">
+                    Discussion
+                  </Link>
+                  ] Add a detailed monitor option to track GitHub Actions stats
+                </p>
+              </li>
+            </ul>
+            <h2>ESLint</h2>
+            <p>
+              <Link href="https://github.com/eslint/">ESLint</Link>: helps finding and fixing
+              problems in your JavaScript code.
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>yannickcr/eslint-plugin-react</h3>
+            <p>
+              <Link href="https://github.com/yannickcr/eslint-plugin-react">
+                yannickcr/eslint-plugin-react
+              </Link>{' '}
+              is the React specific linting rules for ESLint
+            </p>
+            <ul>
+              <li>
+                <p>
+                  [
+                  <Link href="https://github.com/yannickcr/eslint-plugin-react/issues/3242">
+                    Issue
+                  </Link>
+                  ] Is there an ESLint rule to error/warn to avoid "Mirroring props in state"?
+                </p>
+              </li>
+            </ul>
+
             <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
@@ -243,39 +470,24 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/uk/film664726.html">Time</Link> (Mini TV
-                Show) 🇬🇧
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film525222.html">Gangs of London</Link>{' '}
-                (Season 1) 🇬🇧
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
                 <Link href="https://www.filmaffinity.com/es/film241711.html">Severance</Link>{' '}
                 (Season 1) 🇺🇸
               </li>
-            </ul>
-            <h2>Fiction</h2>
-            <ul>
               <li>
-                <span role="img" aria-label="tv series  ">
+                <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.imdb.com/title/tt13668894/">The Book of Boba Fett</Link>{' '}
+                <Link href="https://www.filmaffinity.com/es/film976626.html">
+                  Super Pumped: The Battle of Uber
+                </Link>{' '}
                 (Season 1) 🇺🇸
               </li>
               <li>
-                <span role="img" aria-label="tv series  ">
+                <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film565636.html">Raised by Wolves</Link>{' '}
-                (Season 1) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film851019.html">The Young Pope</Link>{' '}
+                (Season 1) 🇮🇹
               </li>
             </ul>
             <h2>Comedy</h2>
@@ -284,17 +496,17 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.imdb.com/title/tt0381733/?ref_=fn_al_tt_1">
-                  Aquí no hay quien viva
+                <Link href="https://www.filmaffinity.com/es/film650372.html">
+                  The Cuphead Show!
                 </Link>{' '}
-                (Season 2) 🇪🇸
+                (Season 1) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film650372.html">
-                  The Cuphead Show!
+                <Link href="https://www.filmaffinity.com/es/film930636.html">
+                  Winning Time: The rise of the Lakers Dynasty
                 </Link>{' '}
                 (Season 1) 🇺🇸
               </li>
@@ -305,7 +517,25 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film377600.html">100 Foot Wave</Link>{' '}
+                <Link href="https://www.filmaffinity.com/es/film348887.html">
+                  Simeone, vivir partido a partido
+                </Link>{' '}
+                (Mini TV Show) 🇪🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film742708.html">
+                  All or nothing: Juventus
+                </Link>{' '}
+                (Mini TV Show) 🇬🇧
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film257290.html">Phoenix Rising</Link>{' '}
                 (Mini TV Show) 🇺🇸
               </li>
             </ul>
