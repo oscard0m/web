@@ -13,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now (Apr 2022)
+            Now (March 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -24,9 +24,51 @@ export default function Now() {
               <Link href="https://sive.rs/nowff">Derek Sivers</Link> now pages
               <sup>*</sup>.
             </p>
-            <p>Here's what I'm doing now.</p>
+            <p>Here's what I'm doing now:</p>
+            <ul>
+              <li>
+                <Link href="#now-im-learning">
+                  <span role="img" aria-label="academy">
+                    🎓
+                  </span>{' '}
+                  Now I'm learning
+                </Link>
+              </li>
+              <li>
+                <Link href="#open-source-and-personal-projects">
+                  <span role="img" aria-label="academy">
+                    👨🏽‍💻
+                  </span>{' '}
+                  Open Source and Personal Projects
+                </Link>
+              </li>
+              <li>
+                <Link href="#now-im-reading">
+                  <span role="img" aria-label="books">
+                    📚
+                  </span>{' '}
+                  Now I'm reading
+                </Link>
+              </li>
+              <li>
+                <Link href="#now-im-watching">
+                  <span role="img" aria-label="popcorn">
+                    🍿
+                  </span>{' '}
+                  Now I'm watching
+                </Link>
+              </li>
+            </ul>
+            <p>
+              You can see what I was doing previously <Link href="/now/previously">here</Link>.
+            </p>
             <br />
-            <h1>Now I'm learning</h1>
+            <h1 id="now-im-learning">
+              <span role="img" aria-label="academy">
+                🎓
+              </span>{' '}
+              Now I'm learning
+            </h1>
             <h2>React</h2>
             <p>
               In my previous job at <Link href="https://www.marfeel.com/">Marfeel</Link> I did not
@@ -75,7 +117,12 @@ export default function Now() {
               </Link>
             </p>
             <br />
-            <h1>Open Source and Personal Projects</h1>
+            <h1 id="open-source-and-personal-projects">
+              <span role="img" aria-label="academy">
+                👨🏽‍💻
+              </span>{' '}
+              Open Source and Personal Projects
+            </h1>
             <h2>MSW</h2>
             <p>
               <Link href="https://github.com/mswjs/msw">Mock Service Worker (MSW)</Link> is an API
@@ -389,14 +436,18 @@ export default function Now() {
                 </p>
               </li>
             </ul>
-
             <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
               <Link href="https://github.com/users/oscard0m/projects/1">GitHub Project Board</Link>
             </p>
             <br />
-            <h1>Now I’m reading</h1>
+            <h1 id="now-im-reading">
+              <span role="img" aria-label="books">
+                📚
+              </span>{' '}
+              Now I’m reading
+            </h1>
             <h2>Psychology</h2>
             <ul>
               <li>
@@ -456,7 +507,12 @@ export default function Now() {
               </li>
             </ul>
             <br></br>
-            <h1>Now I'm watching</h1>
+            <h1 id="now-im-watching">
+              <span role="img" aria-label="popcorn">
+                🍿
+              </span>{' '}
+              Now I'm watching
+            </h1>
             <h2>Drama</h2>
             <ul>
               <li>
@@ -481,13 +537,6 @@ export default function Now() {
                   Super Pumped: The Battle of Uber
                 </Link>{' '}
                 (Season 1) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film851019.html">The Young Pope</Link>{' '}
-                (Season 1) 🇮🇹
               </li>
             </ul>
             <h2>Comedy</h2>
