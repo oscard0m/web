@@ -60,7 +60,7 @@ export default function Now() {
               </li>
             </ul>
             <p>
-              You can see what I was doing previously <Link href="/now/previously">here</Link>.
+              You can see what I was doing previously <Link href="/previously">here</Link>.
             </p>
             <br />
             <h1 id="now-im-learning">
