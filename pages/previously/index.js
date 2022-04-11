@@ -27,7 +27,7 @@ export default function Now() {
             <p>Here's what I was doing the previous months:</p>
             <ul>
               <li>
-                <Link href="/now/2022-03">
+                <Link href="/previously/2022-03">
                   <span role="img" aria-label="academy">
                     📅
                   </span>{' '}
