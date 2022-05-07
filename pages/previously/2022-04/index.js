@@ -13,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now
+            Now (April 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -123,32 +123,55 @@ export default function Now() {
               </span>{' '}
               Open Source and Personal Projects
             </h1>
-            <h2>Percy</h2>
+            <h2>Octokit</h2>
             <p>
-              <Link href="https://github.com/percy">Percy</Link> is an all-in-one visual review
-              platform.
+              <Link href="https://github.com/octokit">Octokit</Link> is the official client that can
+              be used to send requests to{' '}
+              <Link href="https://docs.github.com/rest/">GitHub's REST API</Link> and queries to{' '}
+              <Link href="https://docs.github.com/graphql">GitHub's GraphQL API</Link>.
+            </p>
+            <p>
+              Its ecosystem is organized in multiple repositories under{' '}
+              <Link href="https://github.com/octokit">GitHub</Link>, which includes a{' '}
+              <i>plugin system</i> with different <i>plugins</i> you can plug to your Octokit
+              instance.
             </p>
             <p>My recent contributions to the project are the following ones:</p>
-            <h3>percy/percy-storybook</h3>
+            <h3>@octokit/auth-token.js</h3>
             <p>
-              <Link href="https://github.com/percy/percy-storybook">percy-storybook</Link> is
-              Percy's Storybook SDK.
+              <Link href="https://github.com/octokit/auth-token.js">@octokit/auth-token.js</Link> is
+              the GitHub API token authentication for browsers and Node.js
             </p>
             <ul>
               <li>
-                [
-                <Link href="https://github.com/percy/percy-storybook/discussions/560">
-                  Discussion
-                </Link>
-                ] Improve documentation for <code>options</code>: <code>waitForTimeout</code> and{' '}
-                <code>waitForSelector</code>
+                [<Link href="https://github.com/octokit/auth-token.js/issues/216">Issue</Link>] [
+                <Link href="https://github.com/octokit/auth-token.js/pull/217">Pull Request</Link>]
+                fixed a <code>CI</code> problem when running a <code>CodeQL</code> workflow in Pull
+                Requests opened by <code>dependabot</code>
               </li>
               <li>
-                [
-                <Link href="https://github.com/percy/percy-storybook/discussions/561">
-                  Discussion
-                </Link>
-                ] Is there a way to make Percy wait for Storybook Interactions to happen?
+                [<Link href="https://github.com/octokit/auth-token.js/issues/218">Issue</Link>] [
+                <Link href="https://github.com/octokit/auth-token.js/pull/219">Pull Request</Link>]
+                remove unnecessary step to <code>checkout HEAD~2</code> in CI from PRs
+              </li>
+            </ul>
+            <h2>GitHub Actions</h2>
+            <p>
+              <Link href="https://github.com/actions">GitHub Actions</Link> is CI tool provided by
+              GitHub to automate your GitHub workflows.
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>actions/setup-python</h3>
+            <p>
+              <Link href="https://github.com/actions/setup-python">actions/setup-python</Link> is
+              the repository for setting up your GitHub Actions workflow with a specific version of
+              python.
+            </p>
+            <ul>
+              <li>
+                [<Link href="https://github.com/actions/setup-python/pull/223">Issue</Link>] [
+                <Link href="https://github.com/actions/setup-python/pull/379">Pull Request</Link>]
+                Added <code>cache</code> to workflows using <code>actions/setup-node</code>
               </li>
             </ul>
             <h2>Renovate</h2>
