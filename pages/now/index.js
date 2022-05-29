@@ -169,6 +169,25 @@ export default function Now() {
                 Add support to presets ending with <code>.json5</code> or <code>.json</code>
               </li>
             </ul>
+            <h2>Storybook</h2>
+            <p>
+              <Link href="https://github.com/storybookjs">Storybook</Link> is a project to build
+              bulletproof user interfaces
+            </p>
+            <p>My recent contributions to the project are the following ones:</p>
+            <h3>storybookjs/repro-templates</h3>
+            <p>
+              <Link href="https://github.com/storybookjs/repro-templates">
+                storybookjs/repro-templates
+              </Link>{' '}
+              reproduces repositories of Storybook example projects online with Stackblitz.
+            </p>
+            <ul>
+              <li>
+                [<Link href="https://github.com/storybookjs/repro-templates/issues/2">Issue</Link>]
+                Bug: When opening a Stackblitz link, it gets stuck forever
+              </li>
+            </ul>
             <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
@@ -226,6 +245,30 @@ export default function Now() {
                 <Link href="https://www.filmaffinity.com/es/film270244.html">WeCrashed</Link>{' '}
                 (Season 1) 🇺🇸
               </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film270244.html">Slow Horses</Link>{' '}
+                (Season 1) 🇺🇸
+              </li>
+            </ul>
+            <h2>Sci-Fi</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film983718.html">Obi-Wan Kenob</Link>{' '}
+                (Mini TV Series) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.imdb.com/title/tt9561862/">Love, Death & Robots</Link>{' '}
+                (Season 3) 🇺🇸
+              </li>
             </ul>
             <h2>Comedy</h2>
             <ul>
@@ -245,6 +288,13 @@ export default function Now() {
                 <Link href="https://www.imdb.com/title/tt5147074/">Ilustres Ignorantes</Link>{' '}
                 (Season 15) 🇪🇸
               </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.imdb.com/title/tt2861424/">Rick and Morty</Link> (Season 5)
+                🇺🇸
+              </li>
             </ul>
             <h2>Documental</h2>
             <ul>
@@ -256,6 +306,27 @@ export default function Now() {
                   They Call Me Magic
                 </Link>{' '}
                 (Mini TV Show) 🇺🇸
+              </li>
+            </ul>
+            <br></br>
+            <h1 id="now-im-watching">
+              <span role="img" aria-label="videogame controller">
+                🎮
+              </span>{' '}
+              Now I'm playing
+            </h1>
+            <h2>Adventure</h2>
+            <ul>
+              <li>
+                <Link href="https://www.igdb.com/games/star-wars-jedi-fallen-order">
+                  Star Wars Jedi: Fallen Order
+                </Link>
+              </li>
+            </ul>
+            <h2>Sports</h2>
+            <ul>
+              <li>
+                <Link href="https://www.igdb.com/games/fifa-22">FIFA 22</Link>
               </li>
             </ul>
             <hr></hr>
