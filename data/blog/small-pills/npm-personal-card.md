@@ -12,8 +12,8 @@ a funny way to integrate in our `npm/yarn` projects a table in terminal where an
 
 You can find out how does it look running `npx oscard0m` in your terminal:
 
-![npm card screenshot](https://www.oscardominguez.dev/_next/image?url=%2Fstatic%2Fimages%2Fnpm-card-screenshot.png&w=640&q=75 "npm card screenshot")
+![npm card screenshot](https://www.oscardominguez.dev/_next/image?url=%2Fstatic%2Fimages%2Fnpm-card-screenshot.png&w=640&q=75 'npm card screenshot')
 
 An issue that come up is, when my [semantic release](https://semantic-release.gitbook.io/semantic-release/) GitHub Action trying to publish in `npm` the latest changes of my card, I'm losing the color from the generated `output` file.
-I already [created a bug](https://github.com/oscard0m/npm-personal-card/issues/5) and I would like to write on the details of the issue once I 
+I already [created a bug](https://github.com/oscard0m/npm-personal-card/issues/5) and I would like to write on the details of the issue once I
 identify what was causing problems there.
