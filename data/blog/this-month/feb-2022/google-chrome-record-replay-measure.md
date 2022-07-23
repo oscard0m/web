@@ -11,7 +11,7 @@ Did you know Google Chrome has a new (preview) feature to record user interactio
 
 A part from recording it, you can replay it changing the conditions, editing the steps from the recorded flow, network conditions…
 
-Take a look on Google Chrome Docs for details: <https://developer.chrome.com/docs/devtools/recorder/>
+Take a look on [Google Chrome Docs for details](https://developer.chrome.com/docs/devtools/recorder/)
 
 ## Resources
 
