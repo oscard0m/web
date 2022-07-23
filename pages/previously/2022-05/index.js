@@ -136,62 +136,10 @@ export default function Now() {
               <i>plugin system</i> with different <i>plugins</i> you can plug to your Octokit
               instance.
             </p>
-            <p>My recent contributions to the project are the following ones:</p>
-            <h3>@octokit/auth-token.js</h3>
             <p>
-              <Link href="https://github.com/octokit/auth-token.js">@octokit/auth-token.js</Link> is
-              the GitHub API token authentication for browsers and Node.js
+              During this month, I've been working on some maintenance tasks for Octokit
+              repositories regarding its CI system.
             </p>
-            <ul>
-              <li>
-                [<Link href="https://github.com/octokit/auth-token.js/issues/216">Issue</Link>] [
-                <Link href="https://github.com/octokit/auth-token.js/pull/217">Pull Request</Link>]
-                fixed a <code>CI</code> problem when running a <code>CodeQL</code> workflow in Pull
-                Requests opened by <code>dependabot</code>
-              </li>
-              <li>
-                [<Link href="https://github.com/octokit/auth-token.js/issues/218">Issue</Link>] [
-                <Link href="https://github.com/octokit/auth-token.js/pull/219">Pull Request</Link>]
-                remove unnecessary step to <code>checkout HEAD~2</code> in CI from PRs
-              </li>
-            </ul>
-            <h2>GitHub Actions</h2>
-            <p>
-              <Link href="https://github.com/actions">GitHub Actions</Link> is CI tool provided by
-              GitHub to automate your GitHub workflows.
-            </p>
-            <p>My recent contributions to the project are the following ones:</p>
-            <h3>actions/setup-python</h3>
-            <p>
-              <Link href="https://github.com/actions/setup-python">actions/setup-python</Link> is
-              the repository for setting up your GitHub Actions workflow with a specific version of
-              python.
-            </p>
-            <ul>
-              <li>
-                [<Link href="https://github.com/actions/setup-python/pull/223">Issue</Link>] [
-                <Link href="https://github.com/actions/setup-python/pull/379">Pull Request</Link>]
-                Added <code>cache</code> to workflows using <code>actions/setup-node</code>
-              </li>
-            </ul>
-            <h2>Renovate</h2>
-            <p>
-              <Link href="https://github.com/renovatebot">Renovate</Link> is a bot for automated
-              dependency updates.
-            </p>
-            <p>My recent contributions to the project are the following ones:</p>
-            <h3>renovatebot/renovate</h3>
-            <p>
-              <Link href="https://github.com/renovatebot/renovate">renovatebot/renovate</Link> is
-              the Universal dependency update tool that fits into your workflows.
-            </p>
-            <ul>
-              <li>
-                [<Link href="https://github.com/renovatebot/renovate/issues/15370">Issue</Link>] [
-                <Link href="https://github.com/renovatebot/renovate/pull/15377">Pull Request</Link>]
-                Add support to presets ending with <code>.json5</code> or <code>.json</code>
-              </li>
-            </ul>
             <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
@@ -204,17 +152,19 @@ export default function Now() {
               </span>{' '}
               Now I’m reading
             </h1>
-            <h2>Mystery</h2>
+            <h2>Biography</h2>
             <ul>
               <li>
                 <span role="img" aria-label="book">
                   📚
                 </span>{' '}
-                <Link href="https://www.goodreads.com/book/show/48725742-one-life">
-                  The Last Thing He Told Me
+                <Link href="https://www.goodreads.com/book/show/55682280-el-hijo-del-ch-fer">
+                  El hijo del chofer
                 </Link>{' '}
                 by{' '}
-                <Link href="https://www.goodreads.com/author/show/2672.Laura_Dave">Lara Dave</Link>
+                <Link href="https://www.goodreads.com/author/show/4039103.Jordi_Amat">
+                  Jordi Amat
+                </Link>
               </li>
             </ul>
             <br></br>
@@ -230,15 +180,6 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film976626.html">
-                  Super Pumped: The Battle of Uber
-                </Link>{' '}
-                (Season 1) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
                 <Link href="https://www.filmaffinity.com/es/film812588.html">Tokyo Vice</Link>{' '}
                 (Season 1) 🇺🇸
               </li>
@@ -246,8 +187,27 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film270244.html">WeCrashed</Link>{' '}
+                <Link href="https://www.filmaffinity.com/es/film270244.html">Slow Horses</Link>{' '}
                 (Season 1) 🇺🇸
+              </li>
+            </ul>
+            <h2>Sci-Fi</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film853379.html">
+                  Love, Death + Robots
+                </Link>{' '}
+                (Vol. 3) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film983718.html">Obi-Wan Kenobi</Link>{' '}
+                (Mini-series TV) 🇺🇸
               </li>
             </ul>
             <h2>Comedy</h2>
@@ -256,17 +216,8 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film930636.html">
-                  Winning Time: The rise of the Lakers Dynasty
-                </Link>{' '}
-                (Season 1) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.imdb.com/title/tt5147074/">Ilustres Ignorantes</Link>{' '}
-                (Season 15) 🇪🇸
+                <Link href="https://www.imdb.com/title/tt2861424/">Rick and Morty</Link> (Season 5)
+                🇺🇸
               </li>
             </ul>
             <h2>Documental</h2>
