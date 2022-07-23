@@ -13,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now
+            Now (May 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -138,29 +138,7 @@ export default function Now() {
             </p>
             <p>
               During this month, I've been working on some maintenance tasks for Octokit
-              repositories regarding its CI system. You can find details on my contributions{' '}
-              <Link href="https://github.com/oscard0m?tab=overview&from=2022-06-01&to=2022-06-30">
-                here
-              </Link>
-              .
-            </p>
-            <h2>MSW</h2>
-            <p>
-              <Link href="https://github.com/mswjs">MSW</Link> is Seamless REST/GraphQL API mocking
-              for JavaScript applications.
-            </p>
-            <p>
-              Its ecosystem is organized in multiple repositories under{' '}
-              <Link href="https://github.com/mswjs">GitHub</Link>, which the <i>core</i> of the
-              library and a other libraries related to the interception and mock of requests.
-            </p>
-            <p>
-              During this month, I've been working on some maintenance tasks for MSW repositories
-              regarding its CI system. You can find details on my contributions{' '}
-              <Link href="https://github.com/oscard0m?tab=overview&from=2022-06-01&to=2022-06-30">
-                here
-              </Link>
-              .
+              repositories regarding its CI system.
             </p>
             <h2>What's coming next?</h2>
             <p>
@@ -202,33 +180,28 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film270244.html">WeCrashed</Link>{' '}
+                <Link href="https://www.filmaffinity.com/es/film812588.html">Tokyo Vice</Link>{' '}
                 (Season 1) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film471259.html">Borgen</Link> (Season
-                3) 🇩🇰
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film801710.html">Vikings</Link> (Season
-                1 & 2) 🇮🇪
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film512779.html">Black Bird</Link>{' '}
-                (Mini-Series TV) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film270244.html">Slow Horses</Link>{' '}
+                (Season 1) 🇺🇸
               </li>
             </ul>
             <h2>Sci-Fi</h2>
             <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film853379.html">
+                  Love, Death + Robots
+                </Link>{' '}
+                (Vol. 3) 🇺🇸
+              </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
@@ -237,21 +210,26 @@ export default function Now() {
                 (Mini-series TV) 🇺🇸
               </li>
             </ul>
-            <h2>Sci-Fi</h2>
+            <h2>Comedy</h2>
             <ul>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film115927.html">800 Metros</Link>{' '}
-                (Mini-series TV) 🇪🇸
+                <Link href="https://www.imdb.com/title/tt2861424/">Rick and Morty</Link> (Season 5)
+                🇺🇸
               </li>
+            </ul>
+            <h2>Documental</h2>
+            <ul>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film537182.html">The Playbook</Link>{' '}
-                (Mini-series TV) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film822513.html">
+                  They Call Me Magic
+                </Link>{' '}
+                (Mini TV Show) 🇺🇸
               </li>
             </ul>
             <hr></hr>

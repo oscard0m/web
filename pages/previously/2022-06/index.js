@@ -13,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now
+            Now (June 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -202,6 +202,20 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film270244.html">Slow Horses</Link>{' '}
+                (Season 1) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film312059.html">Pistol</Link>{' '}
+                (Mini-Series TV) 🇬🇧
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
                 <Link href="https://www.filmaffinity.com/es/film270244.html">WeCrashed</Link>{' '}
                 (Season 1) 🇺🇸
               </li>
@@ -209,22 +223,15 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film471259.html">Borgen</Link> (Season
-                3) 🇩🇰
+                <Link href="https://www.filmaffinity.com/es/film791111.html">We Own This City</Link>{' '}
+                (Season 1) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film801710.html">Vikings</Link> (Season
-                1 & 2) 🇮🇪
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film512779.html">Black Bird</Link>{' '}
-                (Mini-Series TV) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film948192.html">The Bear</Link> (Season
+                1) 🇺🇸
               </li>
             </ul>
             <h2>Sci-Fi</h2>
@@ -234,23 +241,6 @@ export default function Now() {
                   📺
                 </span>{' '}
                 <Link href="https://www.filmaffinity.com/es/film983718.html">Obi-Wan Kenobi</Link>{' '}
-                (Mini-series TV) 🇺🇸
-              </li>
-            </ul>
-            <h2>Sci-Fi</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film115927.html">800 Metros</Link>{' '}
-                (Mini-series TV) 🇪🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film537182.html">The Playbook</Link>{' '}
                 (Mini-series TV) 🇺🇸
               </li>
             </ul>
