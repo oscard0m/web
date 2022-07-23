@@ -27,11 +27,19 @@ export default function Now() {
             <p>Here's what I was doing the previous months:</p>
             <ul>
               <li>
-                <Link href="/previously/2022-03">
+                <Link href="/previously/2022-06">
                   <span role="img" aria-label="academy">
                     📅
                   </span>{' '}
-                  March 2022
+                  June 2022
+                </Link>
+              </li>
+              <li>
+                <Link href="/previously/2022-05">
+                  <span role="img" aria-label="academy">
+                    📅
+                  </span>{' '}
+                  May 2022
                 </Link>
               </li>
               <li>
@@ -43,11 +51,11 @@ export default function Now() {
                 </Link>
               </li>
               <li>
-                <Link href="/previously/2022-05">
+                <Link href="/previously/2022-03">
                   <span role="img" aria-label="academy">
                     📅
                   </span>{' '}
-                  May 2022
+                  March 2022
                 </Link>
               </li>
             </ul>
