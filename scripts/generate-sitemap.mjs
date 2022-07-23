@@ -1,7 +1,7 @@
-const fs = require('fs')
-const globby = require('globby')
-const prettier = require('prettier')
-const siteMetadata = require('../data/siteMetadata')
+import fs from 'fs'
+import { globby } from 'globby'
+import prettier from 'prettier'
+import siteMetadata from '../data/siteMetadata.json' assert {type: "json"};
 
 ;(async () => {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
