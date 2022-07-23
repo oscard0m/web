@@ -123,71 +123,45 @@ export default function Now() {
               </span>{' '}
               Open Source and Personal Projects
             </h1>
-            <h2>Percy</h2>
+            <h2>Octokit</h2>
             <p>
-              <Link href="https://github.com/percy">Percy</Link> is an all-in-one visual review
-              platform.
+              <Link href="https://github.com/octokit">Octokit</Link> is the official client that can
+              be used to send requests to{' '}
+              <Link href="https://docs.github.com/rest/">GitHub's REST API</Link> and queries to{' '}
+              <Link href="https://docs.github.com/graphql">GitHub's GraphQL API</Link>.
             </p>
-            <p>My recent contributions to the project are the following ones:</p>
-            <h3>percy/percy-storybook</h3>
             <p>
-              <Link href="https://github.com/percy/percy-storybook">percy-storybook</Link> is
-              Percy's Storybook SDK.
+              Its ecosystem is organized in multiple repositories under{' '}
+              <Link href="https://github.com/octokit">GitHub</Link>, which includes a{' '}
+              <i>plugin system</i> with different <i>plugins</i> you can plug to your Octokit
+              instance.
             </p>
-            <ul>
-              <li>
-                [
-                <Link href="https://github.com/percy/percy-storybook/discussions/560">
-                  Discussion
-                </Link>
-                ] Improve documentation for <code>options</code>: <code>waitForTimeout</code> and{' '}
-                <code>waitForSelector</code>
-              </li>
-              <li>
-                [
-                <Link href="https://github.com/percy/percy-storybook/discussions/561">
-                  Discussion
-                </Link>
-                ] Is there a way to make Percy wait for Storybook Interactions to happen?
-              </li>
-            </ul>
-            <h2>Renovate</h2>
             <p>
-              <Link href="https://github.com/renovatebot">Renovate</Link> is a bot for automated
-              dependency updates.
+              During this month, I've been working on some maintenance tasks for Octokit
+              repositories regarding its CI system. You can find details on my contributions{' '}
+              <Link href="https://github.com/oscard0m?tab=overview&from=2022-06-01&to=2022-06-30">
+                here
+              </Link>
+              .
             </p>
-            <p>My recent contributions to the project are the following ones:</p>
-            <h3>renovatebot/renovate</h3>
+            <h2>MSW</h2>
             <p>
-              <Link href="https://github.com/renovatebot/renovate">renovatebot/renovate</Link> is
-              the Universal dependency update tool that fits into your workflows.
+              <Link href="https://github.com/mswjs">MSW</Link> is Seamless REST/GraphQL API mocking
+              for JavaScript applications.
             </p>
-            <ul>
-              <li>
-                [<Link href="https://github.com/renovatebot/renovate/issues/15370">Issue</Link>] [
-                <Link href="https://github.com/renovatebot/renovate/pull/15377">Pull Request</Link>]
-                Add support to presets ending with <code>.json5</code> or <code>.json</code>
-              </li>
-            </ul>
-            <h2>Storybook</h2>
             <p>
-              <Link href="https://github.com/storybookjs">Storybook</Link> is a project to build
-              bulletproof user interfaces
+              Its ecosystem is organized in multiple repositories under{' '}
+              <Link href="https://github.com/mswjs">GitHub</Link>, which the <i>core</i> of the
+              library and a other libraries related to the interception and mock of requests.
             </p>
-            <p>My recent contributions to the project are the following ones:</p>
-            <h3>storybookjs/repro-templates</h3>
             <p>
-              <Link href="https://github.com/storybookjs/repro-templates">
-                storybookjs/repro-templates
-              </Link>{' '}
-              reproduces repositories of Storybook example projects online with Stackblitz.
+              During this month, I've been working on some maintenance tasks for MSW repositories
+              regarding its CI system. You can find details on my contributions{' '}
+              <Link href="https://github.com/oscard0m?tab=overview&from=2022-06-01&to=2022-06-30">
+                here
+              </Link>
+              .
             </p>
-            <ul>
-              <li>
-                [<Link href="https://github.com/storybookjs/repro-templates/issues/2">Issue</Link>]
-                Bug: When opening a Stackblitz link, it gets stuck forever
-              </li>
-            </ul>
             <h2>What's coming next?</h2>
             <p>
               You can find the next contributions or personal projects I'm planning in my{' '}
@@ -200,17 +174,19 @@ export default function Now() {
               </span>{' '}
               Now I’m reading
             </h1>
-            <h2>Mystery</h2>
+            <h2>Biography</h2>
             <ul>
               <li>
                 <span role="img" aria-label="book">
                   📚
                 </span>{' '}
-                <Link href="https://www.goodreads.com/book/show/48725742-one-life">
-                  The Last Thing He Told Me
+                <Link href="https://www.goodreads.com/book/show/55682280-el-hijo-del-ch-fer">
+                  El hijo del chofer
                 </Link>{' '}
                 by{' '}
-                <Link href="https://www.goodreads.com/author/show/2672.Laura_Dave">Lara Dave</Link>
+                <Link href="https://www.goodreads.com/author/show/4039103.Jordi_Amat">
+                  Jordi Amat
+                </Link>
               </li>
             </ul>
             <br></br>
@@ -226,22 +202,6 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film976626.html">
-                  Super Pumped: The Battle of Uber
-                </Link>{' '}
-                (Season 1) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film812588.html">Tokyo Vice</Link>{' '}
-                (Season 1) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
                 <Link href="https://www.filmaffinity.com/es/film270244.html">WeCrashed</Link>{' '}
                 (Season 1) 🇺🇸
               </li>
@@ -249,8 +209,22 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film270244.html">Slow Horses</Link>{' '}
-                (Season 1) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film471259.html">Borgen</Link> (Season
+                3) 🇩🇰
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film801710.html">Vikings</Link> (Season
+                1 & 2) 🇮🇪
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film512779.html">Black Bird</Link>{' '}
+                (Mini-Series TV) 🇺🇸
               </li>
             </ul>
             <h2>Sci-Fi</h2>
@@ -259,74 +233,25 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film983718.html">Obi-Wan Kenob</Link>{' '}
-                (Mini TV Series) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.imdb.com/title/tt9561862/">Love, Death & Robots</Link>{' '}
-                (Season 3) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film983718.html">Obi-Wan Kenobi</Link>{' '}
+                (Mini-series TV) 🇺🇸
               </li>
             </ul>
-            <h2>Comedy</h2>
+            <h2>Sci-Fi</h2>
             <ul>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film930636.html">
-                  Winning Time: The rise of the Lakers Dynasty
-                </Link>{' '}
-                (Season 1) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film115927.html">800 Metros</Link>{' '}
+                (Mini-series TV) 🇪🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.imdb.com/title/tt5147074/">Ilustres Ignorantes</Link>{' '}
-                (Season 15) 🇪🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.imdb.com/title/tt2861424/">Rick and Morty</Link> (Season 5)
-                🇺🇸
-              </li>
-            </ul>
-            <h2>Documental</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film822513.html">
-                  They Call Me Magic
-                </Link>{' '}
-                (Mini TV Show) 🇺🇸
-              </li>
-            </ul>
-            <br></br>
-            <h1 id="now-im-watching">
-              <span role="img" aria-label="videogame controller">
-                🎮
-              </span>{' '}
-              Now I'm playing
-            </h1>
-            <h2>Adventure</h2>
-            <ul>
-              <li>
-                <Link href="https://www.igdb.com/games/star-wars-jedi-fallen-order">
-                  Star Wars Jedi: Fallen Order
-                </Link>
-              </li>
-            </ul>
-            <h2>Sports</h2>
-            <ul>
-              <li>
-                <Link href="https://www.igdb.com/games/fifa-22">FIFA 22</Link>
+                <Link href="https://www.filmaffinity.com/es/film537182.html">The Playbook</Link>{' '}
+                (Mini-series TV) 🇺🇸
               </li>
             </ul>
             <hr></hr>
