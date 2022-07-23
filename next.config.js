@@ -2,12 +2,12 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
+module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+  future: {
+    webpack5: true,
+  },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
       test: /\.(png|jpe?g|gif|mp4)$/i,
@@ -38,6 +38,4 @@ const nextConfig = {
 
     return config
   },
-}
-
-module.exports = withBundleAnalyzer(nextConfig)
+})
