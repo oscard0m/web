@@ -58,6 +58,14 @@ export default function Now() {
                   Now I'm watching
                 </Link>
               </li>
+              <li>
+                <Link href="#now-im-playing">
+                  <span role="img" aria-label="popcorn">
+                    🎮
+                  </span>{' '}
+                  Now I'm playing
+                </Link>
+              </li>
             </ul>
             <p>
               You can see what I was doing previously <Link href="/previously">here</Link>.
@@ -230,6 +238,22 @@ export default function Now() {
                   They Call Me Magic
                 </Link>{' '}
                 (Mini TV Show) 🇺🇸
+              </li>
+            </ul>
+            <br></br>
+            <h1 id="now-im-playing">
+              <span role="img" aria-label="popcorn">
+                🎮
+              </span>{' '}
+              Now I'm playing
+            </h1>
+            <h2>Sports</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  ⚽
+                </span>{' '}
+                <Link href="https://www.ign.com/games/fifa-22">Fifa 22</Link> (2021) 🇺🇸
               </li>
             </ul>
             <hr></hr>

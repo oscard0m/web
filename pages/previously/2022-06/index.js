@@ -58,6 +58,14 @@ export default function Now() {
                   Now I'm watching
                 </Link>
               </li>
+              <li>
+                <Link href="#now-im-playing">
+                  <span role="img" aria-label="popcorn">
+                    🎮
+                  </span>{' '}
+                  Now I'm playing
+                </Link>
+              </li>
             </ul>
             <p>
               You can see what I was doing previously <Link href="/previously">here</Link>.
