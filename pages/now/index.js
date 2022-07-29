@@ -237,7 +237,7 @@ export default function Now() {
                 (Mini-series TV) 🇺🇸
               </li>
             </ul>
-            <h2>Sci-Fi</h2>
+            <h2>Documentary</h2>
             <ul>
               <li>
                 <span role="img" aria-label="tv series">
