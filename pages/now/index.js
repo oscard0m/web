@@ -244,6 +244,13 @@ export default function Now() {
                 <Link href="https://www.filmaffinity.com/es/film983718.html">Obi-Wan Kenobi</Link>{' '}
                 (Mini-series TV) 🇺🇸
               </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.imdb.com/title/tt9561862/">Love, Death & Robots</Link> (Vol.
+                3) 🇺🇸
+              </li>
             </ul>
             <h2>Documentary</h2>
             <ul>
