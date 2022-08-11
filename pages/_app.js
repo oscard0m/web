@@ -13,7 +13,7 @@ import PlausibleProvider from 'next-plausible'
 
 export default function App({ Component, pageProps }) {
   return (
-    <PlausibleProvider domain="oscardom.dev" trackOutboundLinks>
+    <PlausibleProvider enabled domain="oscardom.dev" trackOutboundLinks>
       <ThemeProvider attribute="class">
         <MDXProvider components={MDXComponents}>
           <Head>
