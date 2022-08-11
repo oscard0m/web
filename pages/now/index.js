@@ -35,7 +35,10 @@ export default function Now() {
                 </Link>
               </li>
               <li>
-                <Link href="#open-source-and-personal-projects">
+                <Link
+                  href="#open-source-and-personal-pro
+                ects"
+                >
                   <span role="img" aria-label="academy">
                     👨🏽‍💻
                   </span>{' '}
@@ -191,10 +194,33 @@ export default function Now() {
                 <Link href="https://www.goodreads.com/book/show/55682280-el-hijo-del-ch-fer">
                   El hijo del chofer
                 </Link>{' '}
-                by{' '}
-                <Link href="https://www.goodreads.com/author/show/4039103.Jordi_Amat">
-                  Jordi Amat
-                </Link>
+                <small>
+                  by{' '}
+                  <Link href="https://www.goodreads.com/author/show/4039103.Jordi_Amat">
+                    Jordi Amat
+                  </Link>
+                </small>
+              </li>
+            </ul>
+            <h2>Graphic Novel</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <Link href="https://www.goodreads.com/book/show/14744381-the-walking-dead">
+                  The Walking Dead: Compendium Two
+                </Link>{' '}
+                <small>
+                  by{' '}
+                  <Link href="https://www.goodreads.com/author/show/12425.Robert_Kirkman">
+                    Robert Kirkman
+                  </Link>{' '}
+                  and{' '}
+                  <Link href="https://www.goodreads.com/author/show/16962.Charlie_Adlard">
+                    Charlie Adlard
+                  </Link>
+                </small>
               </li>
             </ul>
             <br></br>
@@ -210,15 +236,15 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film270244.html">WeCrashed</Link>{' '}
-                (Season 1) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film263891.html">The Promise</Link>{' '}
+                (Mini-Series TV) 🇬🇧
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film471259.html">Borgen</Link> (Season
-                3) 🇩🇰
+                <Link href="https://www.filmaffinity.com/es/film791111.html">We Own This City</Link>{' '}
+                (Mini-Series TV) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
@@ -235,21 +261,21 @@ export default function Now() {
                 (Mini-Series TV) 🇺🇸
               </li>
             </ul>
-            <h2>Sci-Fi</h2>
+            <h2>Comedy</h2>
             <ul>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film983718.html">Obi-Wan Kenobi</Link>{' '}
-                (Mini-series TV) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film551351.html">Rick and Morty</Link>{' '}
+                (Season 5) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.imdb.com/title/tt9561862/">Love, Death & Robots</Link> (Vol.
-                3) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film700048.html">The Rehearsal</Link>{' '}
+                (Season 1) 🇺🇸
               </li>
             </ul>
             <h2>Documentary</h2>
@@ -258,8 +284,8 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film115927.html">800 Metros</Link>{' '}
-                (Mini-series TV) 🇪🇸
+                <Link href="https://www.filmaffinity.com/es/film984353.html">Cat People</Link>{' '}
+                (Mini-series TV) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
@@ -276,13 +302,16 @@ export default function Now() {
               </span>{' '}
               Now I'm playing
             </h1>
-            <h2>Adventure</h2>
+            <h2>Action/Adventure</h2>
             <ul>
               <li>
                 <span role="img" aria-label="video game">
-                  🐈
+                  🦊
                 </span>{' '}
-                <Link href="https://www.ign.com/games/stray">Stray</Link> (2022) 🇫🇷
+                <Link href="https://www.imdb.com/title/tt12546328/?ref_=nv_sr_srsg_0">
+                  Crash Bandicoot 4: It's About Time
+                </Link>{' '}
+                (2020) 🇺🇸
               </li>
             </ul>
             <h2>Sports</h2>
