@@ -59,7 +59,7 @@
     "remark-frontmatter": "4.0.1",
     "remark-parse": "10.0.1",
     "remark-stringify": "10.0.2",
-    "unist-util-visit": "4.1.0"
+    "unist-util-visit": "4.1.1"
   },
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
