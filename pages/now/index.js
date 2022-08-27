@@ -278,6 +278,15 @@ export default function Now() {
                 (Season 1) 🇺🇸
               </li>
             </ul>
+            <h2>Horror</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film230375.html">Nope</Link> (2022) 🇺🇸
+              </li>
+            </ul>
             <h2>Documentary</h2>
             <ul>
               <li>
@@ -293,6 +302,39 @@ export default function Now() {
                 </span>{' '}
                 <Link href="https://www.filmaffinity.com/es/film537182.html">The Playbook</Link>{' '}
                 (Mini-series TV) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film410431.html">WeWork</Link> (2021) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film610284.html">
+                  The Figo Affair: The Transfer that Changed Football
+                </Link>{' '}
+                (2022) 🇬🇧
+              </li>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film636481.html">
+                  Inside the Mind of a Cat
+                </Link>{' '}
+                (2022) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film407288.html">
+                  Sensitive: The Untold Story
+                </Link>{' '}
+                (2022) 🇺🇸
               </li>
             </ul>
             <br></br>
