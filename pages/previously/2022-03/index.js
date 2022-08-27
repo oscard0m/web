@@ -595,6 +595,22 @@ export default function Now() {
                 <Link href="https://www.filmaffinity.com/es/film257290.html">Phoenix Rising</Link>{' '}
                 (Mini TV Show) 🇺🇸
               </li>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film409632.html">
+                  War Mothers: Unbreakable
+                </Link>{' '}
+                (2017) 🇦🇺
+              </li>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film409632.html">Winter on Fire</Link>{' '}
+                (2015) 🇺🇦
+              </li>
             </ul>
             <br></br>
             <h1 id="now-im-playing">
