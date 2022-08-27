@@ -232,6 +232,16 @@ export default function Now() {
               </span>{' '}
               Now I'm watching
             </h1>
+            <h2>Action / Adventure</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film880392.html">The Northman</Link>{' '}
+                (2022) 🇺🇸
+              </li>
+            </ul>
             <h2>Drama</h2>
             <ul>
               <li>
