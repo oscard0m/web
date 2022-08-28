@@ -229,10 +229,10 @@ export default function Now() {
                 <span role="img" aria-label="book">
                   📚
                 </span>{' '}
+                <Link href="https://www.goodreads.com/book/show/54140556-working-in-public">
+                  Working in Public: The Making and Maintenance of Open Source Software
+                </Link>{' '}
                 <small>
-                  <Link href="https://www.goodreads.com/book/show/54140556-working-in-public">
-                    Working in Public: The Making and Maintenance of Open Source Software
-                  </Link>{' '}
                   by <Link href="https://nadia.xyz/">Nadia Eghbal</Link>
                 </small>
               </li>
@@ -240,10 +240,10 @@ export default function Now() {
                 <span role="img" aria-label="book">
                   📚
                 </span>{' '}
+                <Link href="https://www.goodreads.com/book/show/59862682-learning-patterns">
+                  Learning Patterns
+                </Link>{' '}
                 <small>
-                  <Link href="https://www.goodreads.com/book/show/59862682-learning-patterns">
-                    Learning Patterns
-                  </Link>{' '}
                   by <Link href="https://www.lydiahallie.io/">Lydia Hallie</Link> and{' '}
                   <Link href="https://addyosmani.com/">Addy Osmani</Link>
                 </small>
