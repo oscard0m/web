@@ -223,6 +223,28 @@ export default function Now() {
                 </small>
               </li>
             </ul>
+            <h2>Biography</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <Link href="https://www.goodreads.com/book/show/54140556-working-in-public">
+                  Working in Public: The Making and Maintenance of Open Source Software
+                </Link>{' '}
+                by <Link href="https://nadia.xyz/">Nadia Eghbal</Link>
+              </li>
+              <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <Link href="https://www.goodreads.com/book/show/59862682-learning-patterns">
+                  Learning Patterns
+                </Link>{' '}
+                by <Link href="https://www.lydiahallie.io/">Lydia Hallie</Link> and{' '}
+                <Link href="https://addyosmani.com/">Addy Osmani</Link>
+              </li>
+            </ul>
             <br></br>
             <h1 id="now-im-watching">
               <span role="img" aria-label="popcorn">
