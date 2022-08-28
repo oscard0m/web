@@ -223,7 +223,7 @@ export default function Now() {
                 </small>
               </li>
             </ul>
-            <h2>Biography</h2>
+            <h2>Programming</h2>
             <ul>
               <li>
                 <span role="img" aria-label="book">
