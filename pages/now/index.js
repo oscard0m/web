@@ -102,16 +102,6 @@ export default function Now() {
               You can read about this journey in my <Link href="/blog">blog</Link>
             </p>
             <p>
-              Due to <Link href="/about">my interest</Link> in web development, software automation
-              and the opportunity to learn and use Rust with{' '}
-              <Link href="https://simplabs.com">simplabs</Link>, I decided to start doing my first
-              steps with it.
-            </p>
-            <p>
-              The course I've chosen to do so is{' '}
-              <Link href="https://exercism.org/tracks/rust">Exercism.io's Rust track</Link>.
-            </p>
-            <p>
               If you are curious about my progress and submitted solutions to the exercises, you can
               see them{' '}
               <Link href="https://exercism.org/profiles/dominguezcelada/solutions?track_slug=rust">
