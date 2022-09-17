@@ -27,6 +27,14 @@ export default function Now() {
             <p>Here's what I was doing the previous months:</p>
             <ul>
               <li>
+                <Link href="/previously/2022-08">
+                  <span role="img" aria-label="calendar">
+                    📅
+                  </span>{' '}
+                  August 2022
+                </Link>
+              </li>
+              <li>
                 <Link href="/previously/2022-07">
                   <span role="img" aria-label="calendar">
                     📅
