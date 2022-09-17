@@ -101,15 +101,6 @@ export default function Now() {
             <p>
               You can read about this journey in my <Link href="/blog">blog</Link>
             </p>
-            <h2>Rust</h2>
-            <p>
-              <Link href="https://rust-lang.org">Rust</Link> is here to stay. A lot of interesting
-              projects are going on, the community is huge and{' '}
-              <Link href="https://insights.stackoverflow.com/survey/2021?utm_source=twitter&utm_medium=social&utm_campaign=dev-survey-2020#technology-most-loved-dreaded-and-wanted">
-                loves it
-              </Link>
-              , and I'm excited to learn more about it.
-            </p>
             <p>
               Due to <Link href="/about">my interest</Link> in web development, software automation
               and the opportunity to learn and use Rust with{' '}
@@ -150,24 +141,6 @@ export default function Now() {
             <p>
               During this month, I've been working on some maintenance tasks for Octokit
               repositories regarding its CI system. You can find details on my contributions{' '}
-              <Link href="https://github.com/oscard0m?tab=overview&from=2022-06-01&to=2022-06-30">
-                here
-              </Link>
-              .
-            </p>
-            <h2>MSW</h2>
-            <p>
-              <Link href="https://github.com/mswjs">MSW</Link> is Seamless REST/GraphQL API mocking
-              for JavaScript applications.
-            </p>
-            <p>
-              Its ecosystem is organized in multiple repositories under{' '}
-              <Link href="https://github.com/mswjs">GitHub</Link>, which the <i>core</i> of the
-              library and a other libraries related to the interception and mock of requests.
-            </p>
-            <p>
-              During this month, I've been working on some maintenance tasks for MSW repositories
-              regarding its CI system. You can find details on my contributions{' '}
               <Link href="https://github.com/oscard0m?tab=overview&from=2022-06-01&to=2022-06-30">
                 here
               </Link>
@@ -262,29 +235,8 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film263891.html">The Promise</Link>{' '}
-                (Mini-Series TV) 🇬🇧
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film791111.html">We Own This City</Link>{' '}
-                (Mini-Series TV) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film801710.html">Vikings</Link> (Season
-                1 & 2) 🇮🇪
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film512779.html">Black Bird</Link>{' '}
-                (Mini-Series TV) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film948192.html">The Bear</Link> (Season
+                1) 🇺🇸
               </li>
             </ul>
             <h2>Comedy</h2>
@@ -293,35 +245,14 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film551351.html">Rick and Morty</Link>{' '}
-                (Season 5) 🇺🇸
-              </li>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film700048.html">The Rehearsal</Link>{' '}
-                (Season 1) 🇺🇸
-              </li>
-            </ul>
-            <h2>Horror</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="movie">
-                  🎥
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film230375.html">Nope</Link> (2022) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film393232.html">
+                  Aquí no hay quien viva
+                </Link>{' '}
+                (Season 2) 🇪🇸
               </li>
             </ul>
             <h2>Documentary</h2>
             <ul>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film984353.html">Cat People</Link>{' '}
-                (Mini-series TV) 🇺🇸
-              </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
@@ -333,34 +264,43 @@ export default function Now() {
                 <span role="img" aria-label="movie">
                   🎥
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film410431.html">WeWork</Link> (2021) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film815791.html">
+                  El silencio de otros
+                </Link>{' '}
+                (2018) 🇪🇸
               </li>
               <li>
                 <span role="img" aria-label="movie">
                   🎥
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film610284.html">
-                  The Figo Affair: The Transfer that Changed Football
-                </Link>{' '}
-                (2022) 🇬🇧
+                <Link href="https://www.filmaffinity.com/es/film789231.html">Patria</Link> (2019) 🇪🇸
               </li>
               <li>
-                <span role="img" aria-label="movie">
-                  🎥
+                <span role="img" aria-label="tv series">
+                  📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film636481.html">
-                  Inside the Mind of a Cat
+                <Link href="https://www.filmaffinity.com/es/film238008.html">
+                  We Need to Talk About Cosby
                 </Link>{' '}
-                (2022) 🇺🇸
+                (Mini-series TV) 🇺🇸
               </li>
               <li>
-                <span role="img" aria-label="movie">
-                  🎥
+                <span role="img" aria-label="tv series">
+                  📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film407288.html">
-                  Sensitive: The Untold Story
+                <Link href="https://www.filmaffinity.com/es/film253982.html">
+                  Secrets of Playboy
                 </Link>{' '}
-                (2022) 🇺🇸
+                (Mini-series TV) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film452389.html">
+                  Die Wahrheit Uber Franco - Spaniens vergessene Diktatur
+                </Link>{' '}
+                (Mini-series TV) 🇩🇪
               </li>
             </ul>
             <br></br>
