@@ -85,8 +85,8 @@ export default function Now() {
               In my previous job at <Link href="https://www.marfeel.com/">Marfeel</Link> I did not
               have the chance to learn and play with <Link href="https://reactjs.org">React</Link>{' '}
               as much as I would have liked. In my current job at{' '}
-              <Link href="https://www.simplabs.com">simplabs</Link> I'm working on a project built
-              in React.
+              <Link href="https://www.mainmatter.com">Mainmatter</Link> I'm working on a project
+              built in React.
             </p>
             <p>
               It's good to learn by doing but when we cross that with delivering value in a certain
