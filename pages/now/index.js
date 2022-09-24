@@ -131,10 +131,7 @@ export default function Now() {
             <p>
               During this month, I've been working on some maintenance tasks for Octokit
               repositories regarding its CI system. You can find details on my contributions{' '}
-              <Link href="https://github.com/oscard0m?tab=overview&from=2022-06-01&to=2022-06-30">
-                here
-              </Link>
-              .
+              <Link href="https://github.com/oscard0m?tab=overview">here</Link>.
             </p>
             <h2>What's coming next?</h2>
             <p>
