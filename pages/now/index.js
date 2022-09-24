@@ -237,6 +237,20 @@ export default function Now() {
                 </Link>{' '}
                 (Season 2) 🇪🇸
               </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film161198.html">Ted Lasso</Link>{' '}
+                (Season 1) 🇬🇧
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film243957.html">White Lotus</Link>{' '}
+                (Season 1) 🇺🇸
+              </li>
             </ul>
             <h2>Documentary</h2>
             <ul>
