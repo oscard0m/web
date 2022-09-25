@@ -7,14 +7,14 @@ summary: 'Tired of boring plain outputs when running commands in your Command-Li
 images: []
 ---
 
-Today is Sunday and I decided I wanted to take a look into some of the Command-Line tools written in Rust out there. Some of them have a lot of stars ⭐ on GitHub so I have a good feeling these will be tools I will enjoy as a user and will improve my productivity as well.
+Today is Sunday, and I decided I wanted to look into some of the Command-Line tools written in Rust out there. Some of them have a lot of stars ⭐ on GitHub, so I have a good feeling these will be tools I will enjoy as a user and improve my productivity.
 
-[Rust](https://www.rust-lang.org/) is a programming language [I want to get involved with](/previously/2022-08) and I come up with the idea of integrating some Command Line tools written in Rust in my day to day could be a good opportunity to get in touch with them as a user and, from there, maybe getting involved opening a new issue or drafting a Pull Request, why not!
+[Rust](https://www.rust-lang.org/) is a programming language [I want to get involved with](/previously/2022-08). I came up with the idea of integrating some Command Line tools written in Rust in my day-to-day could be an excellent opportunity to get in touch with them as a user and, from there, maybe get involved in opening a new issue or drafting a Pull Request. Why not!
 
-Here's the list of Command-Line tools I installed today in my personal computer:
+Here's the list of Command-Line tools I installed today on my personal computer:
 
 - [`bat`](https://github.com/sharkdp/bat): A cat(1) clone with wings. It offers _Syntax highlighting_ and _Git integration_
-- [`bandwhich`](https://github.com/imsnif/bandwhich): A terminal bandwidth utilization tool. This is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
+- [`bandwhich`](https://github.com/imsnif/bandwhich): A terminal bandwidth utilization tool. This CLI utility displays current network utilization by process, connection and remote IP/hostname.
 - [`bottom`](https://github.com/ClementTsang/bottom): A customizable cross-platform graphical process/system monitor for the terminal.
 - [`delta`](https://github.com/dandavison/delta): A syntax-highlighting pager for git, diff, and grep output.
 - [`dust`](https://github.com/bootandy/dust): A more intuitive version of du in Rust.
@@ -22,13 +22,13 @@ Here's the list of Command-Line tools I installed today in my personal computer:
 - [`fd`](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'.
 - [`hyperfine`](https://github.com/sharkdp/hyperfine): A command-line benchmarking tool.
 - [`prox`](https://github.com/dalance/procs): A modern replacement for `ps` written in Rust.
-- [`ripgrep`](https://github.com/BurntSushi/ripgrep): `ripgrep` recursively searches directories for a RegEx pattern while respecting your `.gitignore`. Similar to other popular search tools like `The Silver Searcher`, `ack` and `grep`.
+- [`ripgrep`](https://github.com/BurntSushi/ripgrep): `ripgrep` recursively searches directories for a RegEx pattern while respecting your `.gitignore`. Similar to popular search tools like `The Silver Searcher`, `ack` and `grep`.
 - [`sd`](https://github.com/chmln/sd): Intuitive find & replace CLI (`sed` alternative).
 - [`tealdeer`](https://github.com/dbrgn/tealdeer): A very fast implementation of [`tldr`](https://github.com/tldr-pages/tldr) in Rust. A more approachable complement to traditional [`man pages`](https://github.com/tldr-pages/tldr).
 
-Some of these tools promise to give **a better performance ⚡** than the common UNIX commands they are replacing to. Others they just **expand its functionality** and **improves the coloring 🌈 and presentation of the outputs** which is something I'm already enjoying.
+Some of these tools promise to give **a better performance ⚡** than the common UNIX commands they are replacing. Others **expand its functionality** and **improve the colouring 🌈 and presentation of the outputs**, which is something I'm already enjoying.
 
-To make them have more traction I added some `aliases` in my `.bash_profile` to make sure I use them in my daily work. Here's the snippet of bash just in case you want to apply the same aliases I did:
+To make them more traction, I added some `aliases` in my `.bash_profile` to ensure I use them in my daily work. Here's the snippet of bash just in case you want to apply the same aliases I did:
 
 ```bash
 defineAlias () {
@@ -45,4 +45,6 @@ defineAlias grep rg
 defineAlias sed sd
 ```
 
-The `defineAlias()` function makes sure to not define the alias if the command does not exist. This is very useful in case we decide to uninstall one of this tools and we forget to remove the alias from our bash profile. I found this snippet of code in [this StackOverflow post](https://stackoverflow.com/questions/34391838/best-way-to-define-conditional-aliases-in-shell).
+The `defineAlias()` function does not define the alias if the command does not exist. It is handy if we decide to uninstall one of these tools and forget to remove the alias from our bash profile. I found this code snippet in [this StackOverflow post](https://stackoverflow.com/questions/34391838/best-way-to-define-conditional-aliases-in-shell).
+
+This post [was initially published on my blog](https://www.oscardom.dev/blog/tooling/command-line-tools). Come by and check other publications I have at https://oscardom.dev or say hi to me on Twitter: [@oscard0m\_](https://twitter.com/oscard0m_)
