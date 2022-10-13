@@ -13,7 +13,7 @@ export default function Now() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Now
+            Now (September 2022)
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -216,8 +216,34 @@ export default function Now() {
               </span>{' '}
               Now I'm watching
             </h1>
+            <h2>Drama</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film948192.html">The Bear</Link> (Season
+                1) 🇺🇸
+              </li>
+            </ul>
             <h2>Comedy</h2>
             <ul>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film393232.html">
+                  Aquí no hay quien viva
+                </Link>{' '}
+                (Season 2) 🇪🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film161198.html">Ted Lasso</Link>{' '}
+                (Season 1) 🇬🇧
+              </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
@@ -236,22 +262,46 @@ export default function Now() {
                 (Mini-series TV) 🇺🇸
               </li>
               <li>
-                <span role="img" aria-label="tv series">
-                  📺
+                <span role="img" aria-label="movie">
+                  🎥
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film369120.html">
-                  All or Nothing: Arsenal
+                <Link href="https://www.filmaffinity.com/es/film815791.html">
+                  El silencio de otros
                 </Link>{' '}
-                (Mini-series TV) 🇬🇧
+                (2018) 🇪🇸
+              </li>
+              <li>
+                <span role="img" aria-label="movie">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film789231.html">Patria</Link> (2019) 🇪🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film456662.html">
-                  The Principles of Pleasure
+                <Link href="https://www.filmaffinity.com/es/film238008.html">
+                  We Need to Talk About Cosby
                 </Link>{' '}
-                (Mini-series TV) 🇬🇧
+                (Mini-series TV) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film253982.html">
+                  Secrets of Playboy
+                </Link>{' '}
+                (Mini-series TV) 🇺🇸
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  📺
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film452389.html">
+                  Die Wahrheit Uber Franco - Spaniens vergessene Diktatur
+                </Link>{' '}
+                (Mini-series TV) 🇩🇪
               </li>
             </ul>
             <br></br>
@@ -261,6 +311,18 @@ export default function Now() {
               </span>{' '}
               Now I'm playing
             </h1>
+            <h2>Action/Adventure</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="video game">
+                  🦊
+                </span>{' '}
+                <Link href="https://www.imdb.com/title/tt12546328/?ref_=nv_sr_srsg_0">
+                  Crash Bandicoot 4: It's About Time
+                </Link>{' '}
+                (2020) 🇺🇸
+              </li>
+            </ul>
             <h2>Sports</h2>
             <ul>
               <li>
