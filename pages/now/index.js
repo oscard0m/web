@@ -183,6 +183,23 @@ export default function Now() {
                 </small>
               </li>
             </ul>
+            <h2>Personal Development</h2>
+            <ul>
+              <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <Link href="https://www.goodreads.com/book/show/40121378-atomic-habits">
+                  Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
+                </Link>{' '}
+                <small>
+                  by{' '}
+                  <Link href="https://www.goodreads.com/author/show/7327369.James_Clear">
+                    James Clear
+                  </Link>
+                </small>
+              </li>
+            </ul>
             <h2>Programming</h2>
             <ul>
               <li>
@@ -252,6 +269,13 @@ export default function Now() {
                   The Principles of Pleasure
                 </Link>{' '}
                 (Mini-series TV) 🇬🇧
+              </li>
+              <li>
+                <span role="img" aria-label="tv series">
+                  🎥
+                </span>{' '}
+                <Link href="https://www.filmaffinity.com/es/film832143.html">The Redeem Team</Link>{' '}
+                (2022) 🇺🇸
               </li>
             </ul>
             <br></br>
