@@ -68,5 +68,9 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
+  },
+  "volta": {
+    "node": "16.20.1",
+    "pnpm": "8.6.3"
   }
 }
