@@ -39,8 +39,8 @@ dependencies:
     specifier: 4.1.0
     version: 4.1.0(react-dom@18.2.0)(react@18.2.0)
   next-plausible:
-    specifier: 3.2.0
-    version: 3.2.0(next@12.2.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 3.9.1
+    version: 3.9.1(next@12.2.0)(react-dom@18.2.0)(react@18.2.0)
   next-seo:
     specifier: 5.15.0
     version: 5.15.0(next@12.2.0)(react-dom@18.2.0)(react@18.2.0)
@@ -5631,10 +5631,10 @@ packages:
       - supports-color
     dev: false
 
-  /next-plausible@3.2.0(next@12.2.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-OlYcLXBG3kKd/fKMpm8SZ5IkUKSFm1/8t7cv6e5bewIqlpdZpdWuSrjbdJpbmutb2KPLXHzilKp09zmDGjy9KQ==}
+  /next-plausible@3.9.1(next@12.2.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Vt1vUKefLzBO/B/m0SbZf0wviKQcfwpogCxxmpr+gYmbAhZl8RClypKXvPKJHH/P9Rt2aw+GmlAIUUReFKGBPQ==}
     peerDependencies:
-      next: ^11.1.0 || ^12.0.0
+      next: ^11.1.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
