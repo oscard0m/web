@@ -43,7 +43,7 @@
   "devDependencies": {
     "@next/bundle-analyzer": "12.2.5",
     "@next/eslint-plugin-next": "12.2.5",
-    "@svgr/webpack": "6.3.1",
+    "@svgr/webpack": "8.0.1",
     "eslint": "8.44.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
