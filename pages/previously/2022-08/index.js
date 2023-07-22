@@ -1,6 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import { PageSeo } from '@/components/SEO'
-import Link from '@/components/Link'
+import Link from 'next/link'
 
 export default function Now() {
   return (

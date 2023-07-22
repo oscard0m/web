@@ -38,7 +38,7 @@ import siteMetadata from '../data/siteMetadata.json' assert {type: "json"};
         </urlset>
     `
 
-  const formatted = prettier.format(sitemap, {
+  const formatted = await prettier.format(sitemap, {
     ...prettierConfig,
     parser: 'html',
   })

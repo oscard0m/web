@@ -2,7 +2,7 @@ import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import { PageSeo } from '@/components/SEO'
 import Image from 'next/image'
-import Link from '@/components/Link'
+import Link from 'next/link'
 
 export default function About() {
   return (

@@ -1,4 +1,6 @@
 {
+  "extends": "@tsconfig/next/tsconfig.json",
+  "include": ["next-env.d.ts", "**/*.{js,ts}", "**/*.{jsx,tsx}"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
