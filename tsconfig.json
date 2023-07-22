@@ -10,5 +10,6 @@
       "@/lib/*": ["lib/*"],
       "@/css/*": ["css/*"]
     }
-  }
+  },
+  "verbatimModuleSyntax": true
 }
