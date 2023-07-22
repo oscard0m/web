@@ -48,6 +48,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-prettier": "5.0.0",
+    "@tsconfig/next": "^2.0.0",
     "file-loader": "6.2.0",
     "globby": "13.2.2",
     "husky": "8.0.1",
@@ -59,6 +60,7 @@
     "remark-frontmatter": "4.0.1",
     "remark-parse": "10.0.2",
     "remark-stringify": "10.0.3",
+    "typescript": "5.1.6",
     "unist-util-visit": "4.1.1"
   },
   "lint-staged": {

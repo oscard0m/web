@@ -88,27 +88,15 @@ devDependencies:
   '@next/bundle-analyzer':
     specifier: 12.2.5
     version: 12.2.5
-  '@next/eslint-plugin-next':
-    specifier: 12.2.5
-    version: 12.2.5
   '@svgr/webpack':
     specifier: 8.0.1
     version: 8.0.1
-  eslint:
-    specifier: 8.45.0
-    version: 8.45.0
-  eslint-config-prettier:
-    specifier: ^8.8.0
-    version: 8.8.0(eslint@8.45.0)
-  eslint-plugin-jsx-a11y:
-    specifier: 6.7.1
-    version: 6.7.1(eslint@8.45.0)
-  eslint-plugin-prettier:
-    specifier: 5.0.0
-    version: 5.0.0(eslint-config-prettier@8.8.0)(eslint@8.45.0)(prettier@2.8.8)
+  '@tsconfig/next':
+    specifier: ^2.0.0
+    version: 2.0.0
   file-loader:
     specifier: 6.2.0
-    version: 6.2.0(webpack@5.88.0)
+    version: 6.2.0(webpack@5.88.2)
   globby:
     specifier: 13.2.2
     version: 13.2.2
