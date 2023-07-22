@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Img from 'next/image'
-import PageTitle from '@/components/PageTitle'
-import SectionContainer from '@/components/SectionContainer'
-import { BlogSeo } from '@/components/SEO'
-import Tag from '@/components/Tag'
+import PageTitle from '@/components/ui/PageTitle'
+import SectionContainer from '@/components/layout/SectionContainer'
+import { BlogSeo } from '@/components/layout/SEO'
+import Tag from '@/components/ui/Tag'
 import siteMetadata from '@/data/siteMetadata'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/main/data/blog/${fileName}`

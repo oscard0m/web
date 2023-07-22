@@ -1,4 +1,4 @@
-import { PageSeo } from '@/components/SEO'
+import { PageSeo } from '@/components/layout/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import ListLayout from '@/layouts/ListLayout'
 import generateRss from '@/lib/generate-rss'

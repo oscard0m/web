@@ -1,5 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import { PageSeo } from '@/components/SEO'
+import { PageSeo } from '@/components/layout/SEO'
 import Link from 'next/link'
 
 export default function Now() {
@@ -141,7 +141,7 @@ export default function Now() {
             <ul>
               <li>
                 <p>
-                  [<Link href="https://github.com/mswjs/msw/pull/1170">Pull Request</Link>]{' '}
+                  [<Link href="https://github.com/mswjs/msw/pull/1170">Pull Request</Link>]
                   ci(workflows): upgrade <code>actions/checkout</code> and{' '}
                   <code>actions/setup-node</code> to <code>v3</code>
                 </p>
@@ -151,7 +151,7 @@ export default function Now() {
                 explore existing ways to monitor our GitHub Actions!
               </li>
               <li>
-                [<Link href="https://github.com/mswjs/msw/discussions/1173">Discussion</Link>]{' '}
+                [<Link href="https://github.com/mswjs/msw/discussions/1173">Discussion</Link>]
                 Automated Releases with <code>semantic-release</code> fails to push
               </li>
             </ul>

@@ -1,5 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import { PageSeo } from '@/components/SEO'
+import { PageSeo } from '@/components/layout/SEO'
 import Link from 'next/link'
 
 export default function Now() {

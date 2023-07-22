@@ -5,9 +5,9 @@ import { ThemeProvider } from 'next-themes'
 import { DefaultSeo } from 'next-seo'
 import Head from 'next/head'
 
-import { SEO } from '@/components/SEO'
-import LayoutWrapper from '@/components/LayoutWrapper'
-import MDXComponents from '@/components/MDXComponents'
+import { SEO } from '@/components/layout/SEO'
+import LayoutWrapper from '@/components/layout/LayoutWrapper'
+import MDXComponents from '@/components/mdx/MDXComponents'
 
 import PlausibleProvider from 'next-plausible'
 
