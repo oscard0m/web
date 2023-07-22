@@ -61,7 +61,7 @@
     "remark-parse": "10.0.2",
     "remark-stringify": "10.0.3",
     "typescript": "5.1.6",
-    "unist-util-visit": "4.1.1"
+    "unist-util-visit": "5.0.0"
   },
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
