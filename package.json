@@ -16,7 +16,7 @@
     "@mapbox/rehype-prism": "0.8.0",
     "@mdx-js/loader": "2.3.0",
     "@mdx-js/react": "2.3.0",
-    "@next/mdx": "12.2.5",
+    "@next/mdx": "12.3.4",
     "@tailwindcss/forms": "0.5.4",
     "@tailwindcss/typography": "0.5.4",
     "autoprefixer": "^10.4.14",
@@ -41,8 +41,8 @@
     "tailwindcss": "3.3.3"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "12.2.5",
-    "@next/eslint-plugin-next": "12.2.5",
+    "@next/bundle-analyzer": "12.3.4",
+    "@next/eslint-plugin-next": "12.3.4",
     "@svgr/webpack": "8.0.1",
     "eslint": "8.45.0",
     "eslint-config-prettier": "^8.8.0",

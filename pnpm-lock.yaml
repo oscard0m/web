@@ -15,8 +15,8 @@ dependencies:
     specifier: 2.3.0
     version: 2.3.0(react@18.2.0)
   '@next/mdx':
-    specifier: 12.2.5
-    version: 12.2.5(@mdx-js/loader@2.3.0)(@mdx-js/react@2.3.0)
+    specifier: 12.3.4
+    version: 12.3.4(@mdx-js/loader@2.3.0)(@mdx-js/react@2.3.0)
   '@tailwindcss/forms':
     specifier: 0.5.4
     version: 0.5.4(tailwindcss@3.3.3)
@@ -86,11 +86,11 @@ dependencies:
 
 devDependencies:
   '@next/bundle-analyzer':
-    specifier: 12.2.5
-    version: 12.2.5
+    specifier: 12.3.4
+    version: 12.3.4
   '@next/eslint-plugin-next':
-    specifier: 12.2.5
-    version: 12.2.5
+    specifier: 12.3.4
+    version: 12.3.4
   '@svgr/webpack':
     specifier: 8.0.1
     version: 8.0.1
@@ -1621,8 +1621,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@next/bundle-analyzer@12.2.5:
-    resolution: {integrity: sha512-lj7ese4GnfbO8tCc9/g1O3/hzgb+pVkrsNgfF929CgZHCFQxplqxY++MIO4aCFwzt0vDx0KL78LOVxzjDDKjlA==}
+  /@next/bundle-analyzer@12.3.4:
+    resolution: {integrity: sha512-eKjgRICzbLTmod0UnJcArFVs5uEAiuZwB6NCf84m+btW7jdylUVoOYf1wi5tA14xk5L9Lho7Prm6/XJ8gxYzfQ==}
     dependencies:
       webpack-bundle-analyzer: 4.3.0
     transitivePeerDependencies:
@@ -1634,14 +1634,14 @@ packages:
     resolution: {integrity: sha512-RmHanbV21saP/6OEPBJ7yJMuys68cIf8OBBWd7+uj40LdpmswVAwe1uzeuFyUsd6SfeITWT3XnQfn6wULeKwDQ==}
     dev: false
 
-  /@next/eslint-plugin-next@12.2.5:
-    resolution: {integrity: sha512-VBjVbmqEzGiOTBq4+wpeVXt/KgknnGB6ahvC/AxiIGnN93/RCSyXhFRI4uSfftM2Ba3w7ZO7076bfKasZsA0fw==}
+  /@next/eslint-plugin-next@12.3.4:
+    resolution: {integrity: sha512-BFwj8ykJY+zc1/jWANsDprDIu2MgwPOIKxNVnrKvPs+f5TPegrVnem8uScND+1veT4B7F6VeqgaNLFW1Hzl9Og==}
     dependencies:
       glob: 7.1.7
     dev: true
 
-  /@next/mdx@12.2.5(@mdx-js/loader@2.3.0)(@mdx-js/react@2.3.0):
-    resolution: {integrity: sha512-b4gDNNvlt1Icf9D+nMzc66Tn1ei4lYRUFjwjWdCgdQFCo2ahKl+/f4R/g958KGzZMFmmXBJ7JIfzeAqgPv7TsA==}
+  /@next/mdx@12.3.4(@mdx-js/loader@2.3.0)(@mdx-js/react@2.3.0):
+    resolution: {integrity: sha512-YTF/ph9NMKjmrNsr8O+y3IiZee9TaxSd6051qI0Fj/du75pKRRZ1DnOX6ZS7mMgswH7VMERVV7fBZxmJr9sN7Q==}
     peerDependencies:
       '@mdx-js/loader': '>=0.15.0'
       '@mdx-js/react': '*'
