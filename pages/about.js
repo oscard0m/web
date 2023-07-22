@@ -1,6 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
-import SocialIcon from '@/components/social-icons'
-import { PageSeo } from '@/components/SEO'
+import SocialIcon from '@/components/layout/social-icons'
+import { PageSeo } from '@/components/layout/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
 
