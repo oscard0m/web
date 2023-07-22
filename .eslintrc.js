@@ -22,7 +22,11 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:@next/next/recommended',
     'plugin:prettier/recommended',
+    'plugin:storybook/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   rules: {
     'prettier/prettier': 'error',
     'jsx-a11y/anchor-is-valid': [
