@@ -14,7 +14,8 @@
     "lint:fix": "prettier --write '**/*.{js,jsx,ts,tsx}' '!.next/**/*'",
     "eslint:fix": "eslint --fix .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "0.8.0",
@@ -60,6 +61,7 @@
     "@tsconfig/next": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
+    "chromatic": "^6.20.0",
     "eslint": "8.45.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
