@@ -11,13 +11,13 @@ In today's ever-evolving web development sphere, we constantly look for ways to 
 
 ## The Problem:
 
-In my previous setup, I rendered a `<Header>` component directly in the `root.tsx`. However, as my app evolved, this approach made it harder to manage, especially when dealing with login/logout logic. This complexity made updates challenging and increased the risk of bugs..
+In my previous setup, I rendered a `<Header>` component directly in the `root.tsx`. However, as my app evolved, this approach made it harder to manage, especially when dealing with login/logout logic. This complexity made updates challenging and increased the risk of bugs.
 
 ## The Solution: Pathless Routes
 
-Remix [offers a fascinating solution](https://remix.run/docs/en/1.19.3/file-conventions/route-files-v2#nested-urls-without-layout-nesting) to this: the \__leading` underscore_. With this, you can group routes under a common layout without adding any extra segments to the URL. It’s like giving these routes a shared home without changing their address!
+Remix [offers a fascinating solution](https://remix.run/docs/en/1.19.3/file-conventions/route-files-v2#nested-urls-without-layout-nesting) to this: the \__leading` underscore_. With this, you can group routes under a common layout without adding any extra segments to the URL. It's like giving these routes a shared home without changing their address!
 
-> ⚠️ The solution I'm sharing is based on [**Remix v2** Route File Naming](https://remix.run/docs/en/1.19.3/file-conventions/route-files-v2). Remix v1 covers this use-case but the way it's done is different. You can read more about it in [Remix's docs page](https://remix.run/docs/en/1.19.3/file-conventions/routes-files#pathless-layout-routes).
+> ⚠️ The solution I'm sharing is based on [**Remix v2** Route File Naming](https://remix.run/docs/en/1.19.3/file-conventions/route-files-v2). Remix v1 covers this use-case but the way it's done is different. You can read more about it on [Remix's docs page](https://remix.run/docs/en/1.19.3/file-conventions/routes-files#pathless-layout-routes).
 
 Here's a basic structure before refactoring:
 
@@ -40,7 +40,7 @@ Breaking it down (before refactoring):
 
 In the original structure, without the leading underscore (Pathless Routes) approach, each route directly reflects the filename, and all routes lean on the `root.tsx` for the layout unless specified otherwise.
 
-And here's how the file tree looks like after applying pathless routes:
+And here's what the file tree looks like after applying pathless routes:
 
 ```
 app/
