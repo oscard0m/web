@@ -1,0 +1,77 @@
+---
+title: How to use 'Nested Layouts' without 'Nested URLs' in Remix
+date: '2023-08-12'
+tags: ['remix', 'react', 'routing']
+draft: false
+summary: 'During my recent experiments with Remix, I delved into "Pathless Routes". This approach not only reshaped layout sharing but also elegantly decoupled the parent route from root.ts, streamlining my code structure.'
+images: []
+---
+
+In today's ever-evolving web development sphere, we constantly look for ways to optimize and make our applications more maintainable. If you've been using Remix, you might have wondered, "How can I share layouts among different routes without adding to the URL path?" Well, I've got good news for you. I recently refactored my Remix app to do just that. In this blog post, I'll share a strategy to achieve nested layouts without the nested URLs, also known as "Pathless Routes".
+
+## The Problem:
+
+In my previous setup, I rendered a `<Header>` component directly in the `root.tsx`. However, as my app evolved, this approach made it harder to manage, especially when dealing with login/logout logic. This complexity made updates challenging and increased the risk of bugs..
+
+## The Solution: Pathless Routes
+
+Remix [offers a fascinating solution](https://remix.run/docs/en/1.19.3/file-conventions/route-files-v2#nested-urls-without-layout-nesting) to this: the \__leading` underscore_. With this, you can group routes under a common layout without adding any extra segments to the URL. It’s like giving these routes a shared home without changing their address!
+
+> ⚠️ The solution I'm sharing is based on [**Remix v2** Route File Naming](https://remix.run/docs/en/1.19.3/file-conventions/route-files-v2). Remix v1 covers this use-case but the way it's done is different. You can read more about it in [Remix's docs page](https://remix.run/docs/en/1.19.3/file-conventions/routes-files#pathless-layout-routes).
+
+Here's a basic structure before refactoring:
+
+```
+app/
+├── routes/
+│   ├── login.tsx
+│   ├── register.tsx
+│   ├── _index.tsx
+│   ├── concerts.$city.tsx
+│   └── concerts.tsx
+└── root.tsx
+```
+
+Breaking it down (before refactoring):
+
+- URL `/` would render `/_index.tsx` with the layout of root.tsx.
+- URL `/login` would directly match `login.tsx` and use the layout from `root.tsx` since there isn't a specific layout just for it.
+- Similarly, `/register` directly corresponds to `register.tsx`, using the `root.tsx` layout as well.
+
+In the original structure, without the leading underscore (Pathless Routes) approach, each route directly reflects the filename, and all routes lean on the `root.tsx` for the layout unless specified otherwise.
+
+And here's how the file tree looks like after applying pathless routes:
+
+```
+app/
+├── routes/
+│   ├── _auth.login.tsx
+│   ├── _auth.register.tsx
+│   ├── _auth.tsx
+│   ├── _index.tsx
+│   ├── concerts.$city.tsx
+│   └── concerts.tsx
+└── root.tsx
+```
+
+Breaking it down (after refactoring with pathless routes):
+
+- URL `/` would render `_index.tsx` with the layout of `root.tsx`.
+- URL `/login` would match `_auth.login.tsx` and take its layout from `_auth.tsx`.
+- Similarly, `/register` maps to `_auth.register.tsx`, also using `_auth.tsx` as its layout.
+
+By using a \__leading underscore_, you essentially hide the filename from the URL, giving you the ability to share a layout amongst different routes seamlessly.
+
+## Benefits:
+
+1. **Decoupling Logic**: By moving shared components like `<Header>` out of `root.tsx`, I can keep the login/logout logic isolated, making the codebase cleaner and easier to maintain. Now my `root.tsx` `loader()` function is simpler and focused on high-level layout.
+2. **Improved Organization**: Grouping related routes under a shared layout improves the organization of your project, making it more intuitive for developers.
+3. **Flexible URLs**: With pathless routes, you get to dictate the URL structure without being tied down by your file or folder naming conventions.
+
+## Final Thoughts:
+
+Adopting this pattern has significantly improved the structure and maintainability of my Remix app. The \__leading underscore_ might seem like a small, inconsequential change, but its impact on the project's architecture is substantial.
+
+If you've been struggling with managing shared layouts in Remix or just looking for ways to improve your app's structure, give this method a try. Remember, in the world of web development, it's often the small tweaks that lead to the most significant improvements.
+
+Happy coding 🤓!
