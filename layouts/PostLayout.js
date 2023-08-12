@@ -48,7 +48,13 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
               <dd>
                 <ul className="flex justify-center space-x-8 xl:block sm:space-x-12 xl:space-x-0 xl:space-y-8">
                   <li className="flex items-center space-x-2">
-                    <Img src={siteMetadata.image} alt="avatar" className="w-10 h-10 rounded-full" />
+                    <Img
+                      src={siteMetadata.image}
+                      alt="avatar"
+                      className="w-10 h-10 rounded-full"
+                      width="40"
+                      height="40"
+                    />
                     <dl className="text-sm font-medium leading-5 whitespace-nowrap">
                       <dt className="sr-only">Name</dt>
                       <dd className="text-gray-900 dark:text-gray-100">{siteMetadata.author}</dd>
