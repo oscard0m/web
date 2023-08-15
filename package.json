@@ -57,7 +57,7 @@
     "@storybook/nextjs": "^7.1.0",
     "@storybook/react": "^7.1.0",
     "@storybook/testing-library": "^0.2.0",
-    "@svgr/webpack": "8.0.1",
+    "@svgr/webpack": "8.1.0",
     "@tsconfig/next": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
