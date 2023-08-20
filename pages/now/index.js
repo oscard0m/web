@@ -250,49 +250,35 @@ export default function Now() {
               </span>{' '}
               Now I'm watching
             </h1>
-            <h2>Comedy</h2>
+            <h2>Drama</h2>
             <ul>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film243957.html">White Lotus</Link>{' '}
-                (Season 1) 🇺🇸
-              </li>
-            </ul>
-            <h2>Documentary</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="tv series">
-                  📺
-                </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film537182.html">The Playbook</Link>{' '}
-                (Mini-series TV) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film159252.html">Arkitekten</Link>{' '}
+                (Mini-Serie) 🇧🇻
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film369120.html">
-                  All or Nothing: Arsenal
-                </Link>{' '}
-                (Mini-series TV) 🇬🇧
+                <Link href="https://www.filmaffinity.com/es/film853479.html">Succession</Link>{' '}
+                (Season 4) 🇺🇸
               </li>
               <li>
                 <span role="img" aria-label="tv series">
                   📺
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film456662.html">
-                  The Principles of Pleasure
-                </Link>{' '}
-                (Mini-series TV) 🇬🇧
+                <Link href="https://www.filmaffinity.com/es/film295860.html">Kids in Crime</Link>{' '}
+                (Season 1) 🇧🇻
               </li>
               <li>
-                <span role="img" aria-label="tv series">
+                <span role="img" aria-label="movie">
                   🎥
                 </span>{' '}
-                <Link href="https://www.filmaffinity.com/es/film832143.html">The Redeem Team</Link>{' '}
-                (2022) 🇺🇸
+                <Link href="https://www.filmaffinity.com/es/film801562.html">Dare mo shiranai</Link>{' '}
+                (2004) 🇯🇵
               </li>
             </ul>
             <br></br>
@@ -308,7 +294,7 @@ export default function Now() {
                 <span role="img" aria-label="tv series">
                   ⚽
                 </span>{' '}
-                <Link href="https://www.ign.com/games/fifa-22">Fifa 22</Link> (2021) 🇺🇸
+                <Link href="https://www.ign.com/games/fifa-23">Fifa 23</Link> (2022) 🇺🇸
               </li>
             </ul>
             <hr></hr>
