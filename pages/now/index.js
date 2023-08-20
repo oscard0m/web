@@ -35,10 +35,7 @@ export default function Now() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#open-source-and-personal-pro
-                ects"
-                >
+                <Link href="#open-source-and-personal-projects">
                   <span role="img" aria-label="academy">
                     👨🏽‍💻
                   </span>{' '}
