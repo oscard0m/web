@@ -176,23 +176,6 @@ export default function Now() {
               </span>{' '}
               Now I’m reading
             </h1>
-            <h2>Biography</h2>
-            <ul>
-              <li>
-                <span role="img" aria-label="book">
-                  📚
-                </span>{' '}
-                <Link href="https://www.goodreads.com/book/show/55682280-el-hijo-del-ch-fer">
-                  El hijo del chofer
-                </Link>{' '}
-                <small>
-                  by{' '}
-                  <Link href="https://www.goodreads.com/author/show/4039103.Jordi_Amat">
-                    Jordi Amat
-                  </Link>
-                </small>
-              </li>
-            </ul>
             <h2>Graphic Novel</h2>
             <ul>
               <li>
@@ -237,23 +220,26 @@ export default function Now() {
                 <span role="img" aria-label="book">
                   📚
                 </span>{' '}
-                <Link href="https://www.goodreads.com/book/show/54140556-working-in-public">
-                  Working in Public: The Making and Maintenance of Open Source Software
-                </Link>{' '}
-                <small>
-                  by <Link href="https://nadia.xyz/">Nadia Eghbal</Link>
-                </small>
-              </li>
-              <li>
-                <span role="img" aria-label="book">
-                  📚
-                </span>{' '}
                 <Link href="https://www.goodreads.com/book/show/59862682-learning-patterns">
                   Learning Patterns
                 </Link>{' '}
                 <small>
                   by <Link href="https://www.lydiahallie.io/">Lydia Hallie</Link> and{' '}
                   <Link href="https://addyosmani.com/">Addy Osmani</Link>
+                </small>
+              </li>
+              <li>
+                <span role="img" aria-label="book">
+                  📚
+                </span>{' '}
+                <Link href="https://www.goodreads.com/book/show/55730109-zero-to-production-in-rust?from_search=true&from_srp=true&qid=g8t354PI8H&rank=1">
+                  Zero To Production In Rust
+                </Link>{' '}
+                <small>
+                  by{' '}
+                  <Link href="https://www.goodreads.com/author/show/20826476.Luca_Palmieri">
+                    Luca Palmieri
+                  </Link>
                 </small>
               </li>
             </ul>
