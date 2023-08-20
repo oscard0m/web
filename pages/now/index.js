@@ -80,26 +80,57 @@ export default function Now() {
               </span>{' '}
               Now I'm learning
             </h1>
+            <h2>Svelte</h2>
+            <p>
+              At <Link href="https://www.mainmatter.com">Mainmatter</Link>, I’m deep diving into{' '}
+              <Link href="https://svelte.dev">Svelte</Link> while working on a client project.
+              Despite its popularity, this is my first real exposure to the framework, and I'm
+              thoroughly enjoying the process.
+            </p>
+            <p>
+              Courses I'm tackling:
+              <ul>
+                <li>
+                  <Link href="https://frontendmasters.com/courses/svelte-v2/">
+                    Svelte Fundamentals
+                  </Link>{' '}
+                  by <Link href="https://twitter.com/Rich_Harris">Rich Harris</Link>.
+                </li>
+                <li>
+                  <Link href="https://twitter.com/Rich_Harris">
+                    Fullstack Svelte with SvelteKit
+                  </Link>{' '}
+                  by <Link href="https://twitter.com/Rich_Harris">Rich Harris</Link>.
+                </li>
+              </ul>
+            </p>
             <h2>React</h2>
             <p>
               In my previous job at <Link href="https://www.marfeel.com/">Marfeel</Link> I did not
               have the chance to learn and play with <Link href="https://reactjs.org">React</Link>{' '}
               as much as I would have liked. In my current job at{' '}
-              <Link href="https://www.mainmatter.com">Mainmatter</Link> I'm working on a project
-              built in React.
+              <Link href="https://www.mainmatter.com">Mainmatter</Link> I had the chance to work on
+              a project built in React. Right now, I'm working on another internal project using{' '}
+              <Link href="https://remix.run">Remix</Link>, a React framework.
             </p>
             <p>
-              It's good to learn by doing but when we cross that with delivering value in a certain
-              amount of time is when some of the foundations can be left a part so that's why I've
-              decided it's time to start learning the fundamentals and become a React expert.
+              Courses I've handpicked:
+              <ul>
+                <li>
+                  <Link href="https://epicreact.dev/">Epic React</Link> by{' '}
+                  <Link href="https://twitter.com/kentcdodds">Kent C Dodds</Link>.
+                </li>
+                <li>
+                  <Link href="https://www.joyofreact.com/">The Joy of React</Link> by{' '}
+                  <Link href="https://twitter.com/JoshWComeau">Josh W. Comeau</Link>.
+                </li>
+              </ul>
             </p>
             <p>
-              The course I've chosen to do so is{' '}
-              <Link href="https://epicreact.dev/">Epic React</Link> by{' '}
-              <Link href="https://twitter.com/kentcdodds">Kent C Dodds</Link>.
-            </p>
-            <p>
-              You can read about this journey in my <Link href="/blog">blog</Link>
+              Balancing hands-on work with structured learning can be challenging, especially when
+              project timelines are tight. Still, I believe it's essential to get the basics right.
+              I've shared reflections and insights from this learning journey on my{' '}
+              <Link href="/blog">blog</Link>.
             </p>
             <p>
               If you are curious about my progress and submitted solutions to the exercises, you can
