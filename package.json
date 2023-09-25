@@ -41,7 +41,7 @@
     "remark-autolink-headings": "7.0.1",
     "remark-code-titles": "0.1.2",
     "remark-footnotes": "4.0.1",
-    "remark-math": "5.1.1",
+    "remark-math": "6.0.0",
     "remark-slug": "7.0.1",
     "tailwindcss": "3.3.3"
   },
