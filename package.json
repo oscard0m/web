@@ -61,7 +61,7 @@
     "@tsconfig/next": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
-    "chromatic": "^7.0.0",
+    "chromatic": "^9.0.0",
     "eslint": "8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
