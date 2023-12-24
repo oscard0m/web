@@ -143,8 +143,8 @@ devDependencies:
     specifier: 6.8.0
     version: 6.8.0(eslint@8.55.0)
   eslint-plugin-prettier:
-    specifier: 5.0.1
-    version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@8.55.0)(prettier@3.1.0)
+    specifier: 5.1.1
+    version: 5.1.1(eslint-config-prettier@9.0.0)(eslint@8.55.0)(prettier@3.1.0)
   eslint-plugin-storybook:
     specifier: ^0.6.13
     version: 0.6.15(eslint@8.55.0)(typescript@5.3.2)
@@ -6871,8 +6871,8 @@ packages:
       object.fromentries: 2.0.7
     dev: true
 
-  /eslint-plugin-prettier@5.0.1(eslint-config-prettier@9.0.0)(eslint@8.55.0)(prettier@3.1.0):
-    resolution: {integrity: sha512-m3u5RnR56asrwV/lDC4GHorlW75DsFfmUcjfCYylTUs85dBRnB7VM6xG8eCMJdeDRnppzmxZVf1GEPJvl1JmNg==}
+  /eslint-plugin-prettier@5.1.1(eslint-config-prettier@9.0.0)(eslint@8.55.0)(prettier@3.1.0):
+    resolution: {integrity: sha512-WQpV3mSmIobb77s4qiCZu3dBrZZ0rj8ckSfBtRrgNK9Wnh2s3eiaxNTWloz1LJ1WtvqZES/PAI7PLvsrGt/CEA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
