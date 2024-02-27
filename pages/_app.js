@@ -10,6 +10,7 @@ import LayoutWrapper from '@/components/layout/LayoutWrapper'
 import MDXComponents from '@/components/mdx/MDXComponents'
 
 import PlausibleProvider from 'next-plausible'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
           <LayoutWrapper>
             <Component {...pageProps} />
           </LayoutWrapper>
+          <Analytics />
         </MDXProvider>
       </ThemeProvider>
     </PlausibleProvider>
