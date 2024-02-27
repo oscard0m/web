@@ -54,8 +54,8 @@ dependencies:
     specifier: 8.4.35
     version: 8.4.35
   preact:
-    specifier: 10.19.3
-    version: 10.19.3
+    specifier: 10.19.6
+    version: 10.19.6
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -10830,8 +10830,8 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /preact@10.19.3:
-    resolution: {integrity: sha512-nHHTeFVBTHRGxJXKkKu5hT8C/YWBkPso4/Gad6xuj5dbptt9iF9NZr9pHbPhBrnT2klheu7mHTxTZ/LjwJiEiQ==}
+  /preact@10.19.6:
+    resolution: {integrity: sha512-gympg+T2Z1fG1unB8NH29yHJwnEaCH37Z32diPDku316OTnRPeMbiRV9kTrfZpocXjdfnWuFUl/Mj4BHaf6gnw==}
     dev: false
 
   /prebuild-install@7.1.1:
