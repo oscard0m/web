@@ -81,7 +81,7 @@
     "remark-stringify": "11.0.0",
     "storybook": "^8.0.0",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
-    "typescript": "5.4.5",
+    "typescript": "5.5.2",
     "unist-util-visit": "5.0.0"
   },
   "lint-staged": {
