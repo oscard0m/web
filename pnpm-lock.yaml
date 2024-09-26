@@ -151,8 +151,8 @@ importers:
         specifier: 5.2.1
         version: 5.2.1(@types/eslint@8.56.7)(eslint-config-prettier@9.1.0(eslint@9.11.1(jiti@1.21.0)))(eslint@9.11.1(jiti@1.21.0))(prettier@3.2.5)
       eslint-plugin-storybook:
-        specifier: ^0.8.0
-        version: 0.8.0(eslint@9.11.1(jiti@1.21.0))(typescript@5.6.2)
+        specifier: ^0.9.0
+        version: 0.9.0(eslint@9.11.1(jiti@1.21.0))(typescript@5.6.2)
       file-loader:
         specifier: 6.2.0
         version: 6.2.0(webpack@5.91.0(esbuild@0.20.2))
@@ -3587,8 +3587,8 @@ packages:
       eslint-config-prettier:
         optional: true
 
-  eslint-plugin-storybook@0.8.0:
-    resolution: {integrity: sha512-CZeVO5EzmPY7qghO2t64oaFM+8FTaD4uzOEjHKp516exyTKo+skKAL9GI3QALS2BXhyALJjNtwbmr1XinGE8bA==}
+  eslint-plugin-storybook@0.9.0:
+    resolution: {integrity: sha512-qOT/2vQBo0VqrG/BhZv8IdSsKQiyzJw+2Wqq+WFCiblI/PfxLSrGkF/buiXF+HumwfsCyBdaC94UhqhmYFmAvA==}
     engines: {node: '>= 18'}
     peerDependencies:
       eslint: '>=6'
@@ -11302,7 +11302,7 @@ snapshots:
       '@types/eslint': 8.56.7
       eslint-config-prettier: 9.1.0(eslint@9.11.1(jiti@1.21.0))
 
-  eslint-plugin-storybook@0.8.0(eslint@9.11.1(jiti@1.21.0))(typescript@5.6.2):
+  eslint-plugin-storybook@0.9.0(eslint@9.11.1(jiti@1.21.0))(typescript@5.6.2):
     dependencies:
       '@storybook/csf': 0.0.1
       '@typescript-eslint/utils': 5.62.0(eslint@9.11.1(jiti@1.21.0))(typescript@5.6.2)
