@@ -36,8 +36,8 @@ importers:
         specifier: 4.0.3
         version: 4.0.3
       image-size:
-        specifier: 1.2.0
-        version: 1.2.0
+        specifier: 2.0.1
+        version: 2.0.1
       next:
         specifier: 15.1.6
         version: 15.1.6(@babel/core@7.24.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -4338,6 +4338,11 @@ packages:
 
   image-size@1.2.0:
     resolution: {integrity: sha512-4S8fwbO6w3GeCVN6OPtA9I5IGKkcDMPcKndtUlpJuCwu7JLjtj7JZpwqLuyY2nrmQT3AWsCJLSKPsc2mPBSl3w==}
+    engines: {node: '>=16.x'}
+    hasBin: true
+
+  image-size@2.0.1:
+    resolution: {integrity: sha512-NI6NK/2zchlZopsQrcVIS7jxA0/rtIy74B+/rx5s7rKQyFebmQjZVhzxXgRZJROk+WhhOq+S6sUaODxp0L5hfg==}
     engines: {node: '>=16.x'}
     hasBin: true
 
@@ -12381,6 +12386,8 @@ snapshots:
   image-size@1.2.0:
     dependencies:
       queue: 6.0.2
+
+  image-size@2.0.1: {}
 
   import-fresh@3.3.0:
     dependencies:
