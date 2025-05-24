@@ -136,8 +136,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(eslint@9.27.0(jiti@1.21.6))(typescript@5.8.3)
       chromatic:
-        specifier: ^11.0.0
-        version: 11.3.0
+        specifier: ^12.0.0
+        version: 12.0.0
       eslint:
         specifier: 9.27.0
         version: 9.27.0(jiti@1.21.6)
@@ -3071,8 +3071,8 @@ packages:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
 
-  chromatic@11.3.0:
-    resolution: {integrity: sha512-q1ZtJDJrjLGnz60ivpC16gmd7KFzcaA4eTb7gcytCqbaKqlHhCFr1xQmcUDsm14CK7JsqdkFU6S+JQdOd2ZNJg==}
+  chromatic@12.0.0:
+    resolution: {integrity: sha512-X7v26BLfAzHCU92nxPsCuvt+MazmA7S6cN7pCRRhnDYChDxHES48YvXarOybLdlH9kNP/3lMyknu6iseTh0T9A==}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
@@ -10766,7 +10766,7 @@ snapshots:
 
   chownr@2.0.0: {}
 
-  chromatic@11.3.0: {}
+  chromatic@12.0.0: {}
 
   chrome-trace-event@1.0.3: {}
 
