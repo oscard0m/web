@@ -136,8 +136,8 @@ importers:
         specifier: ^8.0.0
         version: 8.46.2(eslint@9.29.0(jiti@2.6.1))(typescript@5.8.3)
       chromatic:
-        specifier: ^12.0.0
-        version: 12.2.0
+        specifier: ^13.0.0
+        version: 13.3.5
       eslint:
         specifier: 9.29.0
         version: 9.29.0(jiti@2.6.1)
@@ -3084,8 +3084,8 @@ packages:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
 
-  chromatic@12.2.0:
-    resolution: {integrity: sha512-GswmBW9ZptAoTns1BMyjbm55Z7EsIJnUvYKdQqXIBZIKbGErmpA+p4c0BYA+nzw5B0M+rb3Iqp1IaH8TFwIQew==}
+  chromatic@13.3.5:
+    resolution: {integrity: sha512-MzPhxpl838qJUo0A55osCF2ifwPbjcIPeElr1d4SHcjnHoIcg7l1syJDrAYK/a+PcCBrOGi06jPNpQAln5hWgw==}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
@@ -5029,6 +5029,7 @@ packages:
   next@15.3.4:
     resolution: {integrity: sha512-mHKd50C+mCjam/gcnwqL1T1vPx/XQNFlXqFIVdgQdVAFY9iIQtY0IfaVflEYzKiqjeA7B0cYYMaCrmAYFjs4rA==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
+    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -9884,7 +9885,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chromatic@12.2.0: {}
+  chromatic@13.3.5: {}
 
   chrome-trace-event@1.0.4: {}
 
